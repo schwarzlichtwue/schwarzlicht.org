@@ -1,0 +1,273 @@
+main {
+     flex: 1 0 auto;
+}
+body {
+    background: #fff;
+    color: #333;
+	font-family: 'Open Sans', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	font-size:1.2em;
+	hyphens: auto;
+}
+
+nav {
+	font-family: 'Open Sans', sans-serif;
+}
+
+		.sidenav-link {
+			color: #7a001f !important;
+			font-size: 1rem;
+		}
+
+		.dropdown-link {
+			color: #7a001f !important;
+			font-size: 1rem;
+		}
+
+		.logo-link {
+			font-size: 1rem;
+		}
+		
+		.logo:hover {
+		    color: #ff6893 !important;
+		}
+		
+		.logo:visited {
+		    color: #fff !important;
+		}
+		
+		.logo {
+			position: absolute;
+			display: inline-block;
+			font-size: 2.1rem;
+			padding: 0;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+footer {
+	color: #ffffff !important;
+}
+
+		.footer-link {
+			color: #ffffff !important;
+		}
+
+article {
+	hyphens: auto;
+	font-family: 'Merriweather', serif;
+}
+
+article p {
+	line-height: 2;
+	font-size: 110%;
+}
+
+article a {
+	word-break: break-all;
+}
+
+blockquote p {
+	font-size: 1em !important;
+	line-height: 1.5 !important;
+}
+
+.breadcrumb::before {
+	color: #fff !important;
+}
+
+.breadcrumb {
+	color: #fff !important;
+	text-transform: uppercase;
+}
+
+.collapsible-header {
+	font-weight: bolder;
+}
+.collection-item a {
+	text-decoration: none !important;
+}
+
+.card-title {
+	font-weight: bolder;
+}
+
+@media only screen and (max-width: 992px) {
+
+		body {
+				font-size: 1em !important;
+		}
+		h1 {
+			font-size: 1.55em !important;
+			font-weight: bold;
+			font-family: 'Open Sans', sans-serif;
+		}
+		
+		h2 {
+			font-size: 1.45em !important;
+			font-weight: bold;
+			font-family: 'Open Sans', sans-serif;
+		}
+		
+		h3 {
+			font-size: 1.35em;
+			font-weight: bold;
+			font-family: 'Open Sans', sans-serif;
+		}
+		h4 {
+			font-size: 1.20em;
+			font-weight: bold;
+			font-family: 'Open Sans', sans-serif;
+		}
+		h5 {
+			font-size: 1.15em;
+			font-weight: bold;
+			font-family: 'Open Sans', sans-serif;
+		}
+		h6 {
+			font-size: 1.10em;
+			font-weight: bold;
+			font-family: 'Open Sans', sans-serif;
+		}
+}
+
+h1 {
+	font-size: 3.1em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	font-size: 2.49em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+	font-size: 2.04em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+h4 {
+	font-size: 1.60em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+h5 {
+	font-size: 1.15em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+h6 {
+	font-size: 0.80em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin-block-end: auto;
+}
+
+.post {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.post-date {
+	color: #777;
+	font-size: 80%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.post-locations {
+	color: #777;
+	font-size: 80%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.post-category {
+	font-size: 80%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.location {
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+.tag {
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+main a {
+	text-decoration: underline;
+}
+
+a {
+	color: #7a001f;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #c70035;
+}
+
+a:visited {
+    color: #470013;
+}
+
+h1 a {
+	color: #333;
+	text-decoration: none !important;
+}
+h1 a:hover {
+	text-decoration: underline !important;
+}
+
+h2 a {
+	color: #333;
+	text-decoration: none !important;
+}
+h2 a:hover {
+	text-decoration: underline !important;
+}
+
+h3 a {
+	color: #333;
+	text-decoration: none !important;
+}
+h3 a:hover {
+	text-decoration: underline !important;
+}
+
+
+.sl-red {
+	background-color: #7a001f;
+}
+
+.sl-red-text {
+	color: #7a001f;
+}
+
+.pagination li {
+	font-size: smaller;
+	display:inline-block;
+	border-radius:15px;
+	text-align:center;
+	vertical-align:top;
+	height:30px
+}
+.pagination li a {
+ color:#444;
+ display:inline-block;
+ font-size:1.2rem;
+ padding:0 10px;
+ line-height:30px
+}
+.pagination li.active {
+ background-color:#7a001f
+}
