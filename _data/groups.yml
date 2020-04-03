@@ -156,6 +156,7 @@
                 twitter: "https://twitter.com/EGwuerzburg"
                 facebook: "https://www.facebook.com/EndeGelaendeWue"
                 mail: "mailto:wuerzburg@ende-gelaende.org"
+                website: "https://www.ende-gelaende.org"
           - id: keinhamehr
             name: Kein Hektar Mehr
             active: "true"
