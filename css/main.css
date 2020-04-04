@@ -192,6 +192,11 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.media-description {
+	font-size: 80%;
+	font-family: 'Open Sans', sans-serif;
+}
+
 .location {
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
