@@ -53,7 +53,18 @@
     <section class="task task--warning" style="grid-row:5">Projects</section>
     <section class="task task--danger">Design Sprint</section>
     <section class="task task--info">Product Checkup 2</section>
+    <section onmouseover="calendar_detail('#calendar-id', true, false)"
+			onmouseout="calendar_detail('#calendar-id', false, false)"
+			onclick="calendar_detail('#calendar-id', false, true)"
+			id="calendar-id" class="task task--primary">Product Checkup 1
+      <div id="calendar-id-detail" class="task__detail">
+        <h2>Product Checkup 1</h2>
+        <p>15-17th November</p>
+      </div>
+    </section>
   </div>
 </div>
 
 <script src="/js/calendarbase.esm.js"></script>
+<script src="/js/calendar-entries.js"></script>
+<script defer src="/js/calendar-init.js"></script>

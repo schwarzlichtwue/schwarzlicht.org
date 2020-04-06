@@ -25,7 +25,6 @@
 document.addEventListener('materializeLoaded', function() {
 	for (let i in collapseinstances) {
 		let c = collapseinstances[i];
-		console.log(c);
 		let a = c.el.querySelector(decodeURIComponent(window.location.hash));
 		if (a == undefined) {
 			continue;
