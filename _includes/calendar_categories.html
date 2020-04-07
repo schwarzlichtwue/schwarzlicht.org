@@ -1,0 +1,19 @@
+<div class="calendar-category-container">
+	<ul>
+		{% for category in site.data.calendar.categories %}
+		<li>
+			<label>
+				<input
+				onchange="calendar_category_update('#cal-cat--{{category.id}}-input',
+				'{{category.id}}');" id="cal-cat--{{category.id}}-input"
+				type="checkbox" checked="true" class="filled-in">
+				<span class="calendar-category--{{category.id}}">{{category.name}}</span>
+			</label>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+<script src="/js/calendarbase.esm.js"></script>
+<script src="/js/calendar-entries.js"></script>
+<script defer src="/js/calendar-shell.js"></script>
+<script defer src="/js/calendar-init.js"></script>

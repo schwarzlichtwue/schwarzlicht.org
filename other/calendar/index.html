@@ -6,15 +6,20 @@ layout: sub
 	<div class="row">
 		<h1>Kalender</h1>
 		<p>
-			Mit diesem Kalender fassen wir Events zusammen, welche im
-			<a href="/#demosphere">Démosphère-Kalender</a> keinen Platz haben.
+			Mit diesem Kalender fassen wir historische Ereignisse zusammen,
+			welche im <a href="/#demosphere">Démosphère-Kalender</a> keinen
+			Platz finden.
+			<a href="/contact">Schreibt uns</a>, wenn ihr einen Kalendereintrag
+			vermisst!
 		</p>
 	</div>
-	<div class="row center">
-		<div class="col s12 m12 l12">
-			<div>
-				{% include_relative calendar.html %}
-			</div>
+	<div class="row">
+		<div class="col s12 m12 l8">
+			{% include calendar.html %}
+		</div>
+		<div class="col s12 m12 l4">
+			<h2>Kategorie-Filter</h2>
+			{% include calendar_categories.html %}
 		</div>
 	</div>
 </div>
