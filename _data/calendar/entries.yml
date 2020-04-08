@@ -1,6 +1,11 @@
-##############################################
-# JANUARY
-##############################################
+# 01
+- id: "a"
+  name: "Ende Kubanische Revolution"
+  description: ""
+  category: "revolution"
+  singular: false
+  date: "0000-01-01"
+
 - id: "a"
   name: "* Shulamith Firestone"
   description: ""
@@ -9,33 +14,59 @@
   date: "0000-01-07"
 
 - id: "a"
-  name: "† Shulamith Firestone"
+  name: "† Louise Michel"
   description: ""
   category: "death"
   singular: false
   date: "0000-01-09"
 
 - id: "a"
-  name: "† Karl Liebknecht"
+  name: "†Karl Liebknecht, †Rosa Luxemburg"
   description: ""
   category: "death"
   singular: false
   date: "0000-01-15"
 - id: "b"
-  name: "† Rosa Luxemburg"
+  name: "*Martin Luther King"
   description: ""
-  category: "death"
+  category: "birthday"
   singular: false
   date: "0000-01-15"
 - id: "c"
-  name: "* Martin Luther King"
+  name: "*Pierre-Joseph Proudhon"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-01-15"
+- id: "d"
+  name: "*Maurice Bavaud"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-01-15"
 
 - id: "a"
-  name: "† Lenin"
+  name: "†Pierre-Joseph Proudhon"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-01-19"
+
+- id: "a"
+  name: "Beginn türkische Offensive gegen Afrin"
+  description: ""
+  category: "war"
+  singular: false
+  date: "0000-01-20"
+
+- id: "a"
+  name: "†Lenin"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-01-21"
+- id: "b"
+  name: "†Leo Löwenthal"
   description: ""
   category: "death"
   singular: false
@@ -48,178 +79,287 @@
   singular: false
   date: "0000-01-27"
 - id: "b"
-  name: "Gedenktag an die Opfer des NS"
-  description: "Gedenktag an die Opfer des Nationalsozialismus"
+  name: "Gedenktag für die Opfer des Nationalsozialimus"
+  description: ""
   category: "day"
   singular: false
   date: "0000-01-27"
 
 - id: "a"
-  name: "USA - Abschaffung der Sklaverei"
+  name: "†Edith Wolff"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-01-28"
+
+- id: "a"
+  name: "Ende Vietnamkrieg"
+  description: ""
+  category: "war"
+  singular: false
+  date: "0000-01-30"
+
+- id: "a"
+  name: "USA – Abschaffung der Sklaverei"
   description: ""
   category: "event"
   singular: false
   date: "0000-01-31"
 
-
-
-##############################################
-# FEBRUARY
-##############################################
+# 02
 - id: "a"
-  name: "* Rosa Parks"
+  name: "*Rosa Parks"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-02-04"
 
 - id: "a"
-  name: "† Kropotkin"
+  name: "†Hans Litten"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-02-05"
+
+- id: "a"
+  name: "†Kropotkin"
   description: ""
   category: "death"
   singular: false
   date: "0000-02-08"
 
 - id: "a"
-  name: "† Mercedes Comaposada"
+  name: "†Mercedes Comaposada"
   description: ""
   category: "death"
   singular: false
   date: "0000-02-11"
 
 - id: "a"
-  name: "† Kant"
+  name: "†Kant"
   description: ""
   category: "death"
   singular: false
   date: "0000-02-12"
 
 - id: "a"
-  name: "† Clara Gertrud Wichmann"
+  name: "*Max Horkheimer"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-02-14"
+
+- id: "a"
+  name: "†Clara Gertrud Wichmann"
   description: ""
   category: "death"
   singular: false
   date: "0000-02-15"
 
 - id: "a"
-  name: "* Wladyslaw Bartoszewski"
+  name: "*Władysław Bartoszewski"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-02-19"
 
 - id: "a"
-  name: "† Mehmet Turgut"
+  name: "†Kurt Eisners"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-02-21"
+- id: "b"
+  name: "†Malcom X"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-02-21"
+
+- id: "a"
+  name: "*August Bebel"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-02-22"
+- id: "b"
+  name: "†Geschwister Scholl"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-02-22"
+
+- id: "a"
+  name: "*Gayatri Chakravorty Spivak"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-02-24"
+- id: "b"
+  name: "*Judith Butler"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-02-24"
+
+- id: "a"
+  name: "†Mehmet Turgut"
   description: ""
   category: "death"
   singular: false
   date: "0000-02-25"
 
-
-
-##############################################
-# MARCH
-##############################################
 - id: "a"
-  name: "* William Godwin"
+  name: "*Oskar Huth"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-02-26"
+
+# 03
+- id: "a"
+  name: "Randale der Suffragetten"
+  description: ""
+  category: "revolution"
+  singular: false
+  date: "0000-03-01"
+
+- id: "a"
+  name: "*William Godwin"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-03-03"
 
 - id: "a"
-  name: "† Stalin"
+  name: "†Stalin"
   description: ""
   category: "death"
   singular: false
   date: "0000-03-05"
 - id: "b"
-  name: "* Rosa Luxemburg"
+  name: "*Rosa Luxemburg"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-03-05"
 
 - id: "a"
-  name: "† Marx"
+  name: "*Dutschke"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-03-07"
+
+- id: "a"
+  name: "†Alexandra Kollontai"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-03-09"
+
+- id: "a"
+  name: "†Marx"
   description: ""
   category: "death"
   singular: false
   date: "0000-03-14"
 
 - id: "a"
-  name: "* Ishbel Hamilton-Gordon"
+  name: "*Ishbel Hamilton-Gordon"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-03-15"
 - id: "b"
-  name: "* Lisa Gustava Heymann"
+  name: "*Lisa Gustava Heymann"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-03-15"
 
-
-
-##############################################
-# APRIL
-##############################################
 - id: "a"
-  name: "Tag der älteren Gen."
-  description: "Tag der älteren Generation"
-  category: "day"
-  singular: false
-  date: "0000-04-01"
-- id: "b"
-  name: "Ende span. Bürgerkrieg"
-  description: "Ende spanischer Bürgerkrieg"
+  name: "Ende türkische Offensive gegen Afrin"
+  description: ""
   category: "war"
   singular: false
-  date: "0000-04-01"
+  date: "0000-03-18"
 
 - id: "a"
-  name: "† Mehmet Kubaşık"
-  description: "Todestag Mehmet Kubaşık"
-  category: "death"
-  singular: false
-  date: "0000-04-04"
-- id: "b"
-  name: "† Martin Luther King"
-  description: "Todestag Martin Luther King"
-  category: "death"
-  singular: false
-  date: "0000-04-04"
-
-- id: "a"
-  name: "* Erich Mühsam"
+  name: "*Alexandra Kollontai"
   description: ""
   category: "birthday"
   singular: false
-  date: "1878-04-06"
+  date: "0000-03-31"
+
+# 04
+- id: "a"
+  name: "Ende spanischer Bürgerkrieg"
+  description: ""
+  category: "war"
+  singular: false
+  date: "0000-04-02"
 - id: "b"
+  name: "NS-“Judenboykott“"
+  description: ""
+  category: "holocaust"
+  singular: false
+  date: "0000-04-02"
+- id: "c"
+  name: "1.Gleichgeschlechtliche Ehe NL"
+  description: ""
+  category: "feminism"
+  singular: false
+  date: "0000-04-02"
+
+- id: "a"
+  name: "†Mehmet Kubaşık"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-04-05"
+- id: "b"
+  name: "†Martin Luther King"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-04-05"
+
+- id: "a"
+  name: "*Erich Mühsam 1878"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-04-06"
+- id: "c"
   name: "† Halit Yozgat"
-  description: "Todestag von Halit Yozgat"
+  description: ""
   category: "death"
   singular: false
   date: "0000-04-06"
 
 - id: "a"
-  name: "Ausrufung Münchner Räterepublik"
+  name: "Ausrufung Münchener Räterepublik"
   description: ""
   category: "revolution"
   singular: false
   date: "0000-04-07"
-- id: "b"
-  name: "* Gustav Landauer"
+- id: "c"
+  name: "*Gustav Landauer"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-04-07"
-- id: "c"
-  name: "† William Godwin"
+- id: "e"
+  name: "†William Godwin"
   description: ""
   category: "death"
+  singular: false
+  date: "0000-04-07"
+- id: "f"
+  name: "Würzbuger Räterepublik"
+  description: ""
+  category: "revolution"
   singular: false
   date: "0000-04-07"
 
@@ -236,17 +376,23 @@
   category: "death"
   singular: false
   date: "0000-04-09"
+- id: "b"
+  name: "Ende Würzburger Räterepublik"
+  description: ""
+  category: "revolution"
+  singular: false
+  date: "0000-04-09"
 
 - id: "a"
-  name: "* Hubertine Auclert"
+  name: "*Hubertine Auclert"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-04-10"
 
 - id: "a"
-  name: "Befreiung des KZ Buchenwald"
-  description: "Befreiung des KZ Buchenwalk & Mittelbau-Dora"
+  name: "Befreiung KZ Buchenwald, Mittelbau Dora"
+  description: ""
   category: "holocaust"
   singular: false
   date: "0000-04-11"
@@ -258,11 +404,11 @@
   date: "0000-04-11"
 
 - id: "a"
-  name: "Erste jüd. KZ-Opfer"
+  name: "Erste jüdische KZ-Opfer 1933"
   description: ""
   category: "holocaust"
   singular: false
-  date: "1933-04-12"
+  date: "0000-04-12"
 
 - id: "a"
   name: "Palmsonntagsputsch"
@@ -271,22 +417,40 @@
   singular: false
   date: "0000-04-13"
 - id: "b"
-  name: "* Josephine Butler"
+  name: "*Josephine Butler"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-04-13"
+- id: "c"
+  name: "*Edith Wolff"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-04-13"
 
 - id: "a"
-  name: "* Margarete Stokowski"
+  name: "*Margarete Stokowski"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-04-14"
 - id: "b"
-  name: "† Simone de Beauvoir"
+  name: "†Simone de Beauvoir"
   description: ""
   category: "death"
+  singular: false
+  date: "0000-04-14"
+- id: "c"
+  name: "Ende Nürnberger Prozesse"
+  description: ""
+  category: "fascism"
+  singular: false
+  date: "0000-04-14"
+- id: "d"
+  name: "Gründung Israels"
+  description: ""
+  category: "event"
   singular: false
   date: "0000-04-14"
 
@@ -297,26 +461,45 @@
   singular: false
   date: "0000-04-15"
 - id: "b"
-  name: "† Sartre"
+  name: "†Sartre"
   description: ""
   category: "death"
   singular: false
   date: "0000-04-15"
 - id: "c"
-  name: "† Amparo Poch y Gascon"
+  name: "†Amparo Poch y Gascon"
   description: ""
   category: "death"
   singular: false
   date: "0000-04-15"
+- id: "d"
+  name: "Strafbarkeit von Vergewaltigung in der Ehe"
+  description: ""
+  category: "feminism"
+  singular: false
+  date: "0000-04-15"
 
 - id: "a"
-  name: "† Ishbel Maria Hamilton-Gordon"
+  name: "Ende Aufstand Warschauer Ghetto"
+  description: ""
+  category: "holocaust"
+  singular: false
+  date: "0000-04-16"
+- id: "b"
+  name: "Aufstand Sinti und Roma im KZ Auschwitz-Birkenau"
+  description: ""
+  category: "holocaust"
+  singular: false
+  date: "0000-04-16"
+
+- id: "a"
+  name: "†Ishbel Maria Hamilton-Gordon"
   description: ""
   category: "death"
   singular: false
   date: "0000-04-18"
 - id: "b"
-  name: "Bootsunglück - † 800 Geflüchtete"
+  name: "†800 Geflüchtete – Bootsunglück"
   description: ""
   category: "death"
   singular: false
@@ -329,37 +512,37 @@
   singular: false
   date: "0000-04-19"
 - id: "b"
-  name: "Razzia Georg-von-Rauch-Haus"
+  name: "Razzia Georg-von-Rauch Haus"
   description: ""
   category: "action"
   singular: false
   date: "0000-04-19"
-- id: "c"
-  name: "* Alice Salomon"
+- id: "d"
+  name: "*Alice Salomon"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-04-19"
 
 - id: "a"
-  name: "* Hitler"
+  name: "*Hitler"
   description: ""
-  category: "fascism"
+  category: "birthday"
   singular: false
   date: "0000-04-20"
-- id: "b"
+- id: "c"
   name: "Aprilthesen Lenin"
   description: ""
   category: "communism"
   singular: false
   date: "0000-04-20"
-- id: "c"
+- id: "e"
   name: "Ludlow-Massaker"
   description: ""
   category: "death"
   singular: false
   date: "0000-04-20"
-- id: "d"
+- id: "g"
   name: "Auflösung RAF"
   description: ""
   category: "action"
@@ -378,7 +561,7 @@
   category: "action"
   singular: false
   date: "0000-04-21"
-- id: "c"
+- id: "d"
   name: "Kartoffelrevolution"
   description: ""
   category: "revolution"
@@ -391,44 +574,44 @@
   category: "day"
   singular: false
   date: "0000-04-22"
-- id: "b"
-  name: "* Lenin"
-  description: ""
-  category: "birthday"
-  singular: false
-  date: "1870-04-22"
 - id: "c"
-  name: "* Kant"
+  name: "Lenin"
   description: ""
   category: "birthday"
   singular: false
-  date: "1724-04-22"
+  date: "0000-04-22"
 - id: "d"
-  name: "Giftgaseinsatz Flandernschlacht"
-  description: "Erster großer Giftgaseinsatz in der zweiten Flandernschlacht"
+  name: "Erster großer Giftgaseinsatz (zweite Flandernschlacht)"
+  description: ""
   category: "war"
   singular: false
-  date: "1915-04-22"
+  date: "0000-04-22"
+- id: "e"
+  name: "Kant"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-04-22"
 
 - id: "a"
   name: "Befreiung KZ Flossenbürg"
   description: ""
   category: "holocaust"
   singular: false
-  date: "1945-04-23"
-- id: "b"
-  name: "Befreiung des verl. Zugs"
-  description: "Befreiung des verlorenen Zugs"
+  date: "0000-04-23"
+- id: "c"
+  name: "Befreiung des verlorenen Zugs"
+  description: ""
   category: "holocaust"
   singular: false
-  date: "1945-04-23"
-- id: "c"
+  date: "0000-04-23"
+- id: "e"
   name: "Freispruch Veit Harlan"
   description: ""
   category: "action"
   singular: false
   date: "0000-04-23"
-- id: "d"
+- id: "f"
   name: "† Klaus Bonhoeffer"
   description: ""
   category: "death"
@@ -436,17 +619,17 @@
   date: "0000-04-23"
 
 - id: "a"
-  name: "† Władysław Bartoszewski"
+  name: "Opfer des türkischen Völkermords an Armeniern"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-04-24"
+- id: "b"
+  name: "†Władysław Bartoszewski"
   description: ""
   category: "death"
   singular: false
   date: "0000-04-24"
-- id: "b"
-  name: "Vökermordgedenktag (Armenien)"
-  description: "Gedenktag zum türkischen Vökermord an Armeniern. Anlass ist die Deportation armenischer Intellektueller"
-  category: "day"
-  singular: false
-  date: "1915-04-24"
 
 - id: "a"
   name: "Tag des Baumes"
@@ -467,7 +650,7 @@
   singular: false
   date: "0000-04-25"
 - id: "d"
-  name: "† Michele Kiesewetter"
+  name: "†Michele Kiesewetter"
   description: ""
   category: "death"
   singular: false
@@ -479,22 +662,28 @@
   category: "disaster"
   singular: false
   date: "0000-04-26"
+- id: "b"
+  name: "*Rudi Arndt"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-04-26"
 
 - id: "a"
-  name: "* Mary Wollstonecraft"
+  name: "*Mary Wollstonecraft"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-04-27"
 
 - id: "a"
-  name: "Worker's Memorial Day"
+  name: "Workers’ Memorial Day"
   description: ""
   category: "day"
   singular: false
   date: "0000-04-28"
 - id: "b"
-  name: "* Oscar Schindler"
+  name: "*Oskar Schindler"
   description: ""
   category: "birthday"
   singular: false
@@ -513,71 +702,90 @@
   singular: false
   date: "0000-04-29"
 - id: "c"
-  name: "Erste deutsche Schwulendemo"
+  name: "Erste detusche Schwulendemo"
   description: ""
   category: "feminism"
   singular: false
   date: "0000-04-29"
 
 - id: "a"
-  name: "† Hitler"
+  name: "†Hitler"
   description: ""
-  category: "fascism"
+  category: "death"
   singular: false
   date: "0000-04-30"
 
-
-
-##############################################
-# MAY
-##############################################
+# 05
 - id: "a"
   name: "Kampftag der Arbeiterbewegung"
-  description: "Heraus zum revolutionären ersten Mai!"
+  description: ""
   category: "revolution"
   singular: false
   date: "0000-05-01"
-
 - id: "b"
-  name: "Widerstand gegen Zwangspsychiatrie"
+  name: "Haymarket Riot"
   description: ""
-  category: "action"
+  category: "event"
+  singular: false
+  date: "0000-05-01"
+- id: "c"
+  name: "Blutmai"
+  description: ""
+  category: "event"
+  singular: false
+  date: "0000-05-01"
+
+- id: "a"
+  name: "Gewerkschaftsverbot"
+  description: ""
+  category: "fascism"
   singular: false
   date: "0000-05-02"
-- id: "c"
-  name: "† Gustav Landauer"
+- id: "b"
+  name: "1933 †Gustav Landauer"
   description: ""
   category: "death"
   singular: false
   date: "0000-05-02"
 
 - id: "a"
-  name: "Ende der Räterepublik"
-  description: ""
-  category: "revolution"
-  singular: false
-  date: "0000-05-03"
-- id: "b"
   name: "Tag der Pressefreiheit"
   description: ""
   category: "day"
   singular: false
   date: "0000-05-03"
-
-- id: "a"
-  name: "Welt-Passwort-Tag"
+- id: "b"
+  name: "Ende Räterepublik 1919"
   description: ""
-  category: "day"
+  category: "revolution"
   singular: false
-  date: "0000-05-04"
+  date: "0000-05-03"
+- id: "c"
+  name: "Besetzung Gorleben"
+  description: ""
+  category: "action"
+  singular: false
+  date: "0000-05-03"
+- id: "d"
+  name: "†Rudi Arndt"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-05-03"
 
 - id: "a"
-  name: "* Marx"
+  name: "*Marx"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-05-05"
 - id: "b"
+  name: "Befreiung KZ Mauthausen"
+  description: ""
+  category: "holocaust"
+  singular: false
+  date: "0000-05-05"
+- id: "c"
   name: "Europ. Protesttag zur Gleichstellung von Menschen mit Behinderung"
   description: ""
   category: "day"
@@ -585,7 +793,7 @@
   date: "0000-05-05"
 
 - id: "a"
-  name: "* Olympe de Gouges"
+  name: "*Olympe de Gouges"
   description: ""
   category: "birthday"
   singular: false
@@ -594,20 +802,45 @@
 - id: "a"
   name: "Tag der Befreiung"
   description: ""
-  category: "war"
+  category: "day"
   singular: false
-  date: "1945-05-08"
+  date: "0000-05-08"
+- id: "b"
+  name: "Beschluss GG"
+  description: ""
+  category: "event"
+  singular: false
+  date: "0000-05-08"
+- id: "c"
+  name: "†Mordechaj Anielewicz"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-05-08"
 
 - id: "a"
-  name: "Gedenktag Bücherverbrennung"
-  description: "Gedenktag anlässlich der Bücherverbrennung"
-  category: "fascism"
-  singular: false
-  date: "1945-05-10"
-- id: "b"
-  name: "* Eugen Leviné"
+  name: "*Sophie Scholl"
   description: ""
   category: "birthday"
+  singular: false
+  date: "0000-05-09"
+
+- id: "a"
+  name: "Gedenktag NS-Bücherverbrennung"
+  description: ""
+  category: "fascism"
+  singular: false
+  date: "0000-05-10"
+- id: "c"
+  name: "*Eugen Leviné"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-05-10"
+- id: "d"
+  name: "Beginn indischer Aufstand"
+  description: ""
+  category: "revolution"
   singular: false
   date: "0000-05-10"
 
@@ -619,18 +852,43 @@
   date: "0000-05-12"
 
 - id: "a"
-  name: "† Emma Goldman"
+  name: "†Emma Goldman"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-05-14"
+- id: "b"
+  name: "†Maurice Bavaud"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-05-14"
+- id: "c"
+  name: "*Kurt Eisner"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-05-14"
 
 - id: "a"
-  name: "Tag gegen Homofeindlichkeit"
+  name: "Tag gegen LGBTIQ*-Feindlichkeit"
   description: ""
   category: "feminism"
   singular: false
   date: "0000-05-17"
+- id: "b"
+  name: "Ibiza-Affäre"
+  description: ""
+  category: "event"
+  singular: false
+  date: "0000-05-17"
+
+- id: "a"
+  name: "*Malcom X"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-05-19"
 
 - id: "a"
   name: "Weltbienentag"
@@ -638,16 +896,28 @@
   category: "day"
   singular: false
   date: "0000-05-20"
+- id: "b"
+  name: "Eintreffen erster Häftlinge im KZ Auschwitz"
+  description: ""
+  category: "holocaust"
+  singular: false
+  date: "0000-05-20"
+- id: "c"
+  name: "Ablehnung des GG im bayerischen Landtag"
+  description: ""
+  category: "event"
+  singular: false
+  date: "0000-05-20"
 
 - id: "a"
-  name: "* Max Levien"
+  name: "*Max Levien"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-05-21"
 
 - id: "a"
-  name: "† Ernst Toller"
+  name: "†Ernst Toller"
   description: ""
   category: "death"
   singular: false
@@ -658,13 +928,32 @@
   category: "action"
   singular: false
   date: "0000-05-22"
+- id: "c"
+  name: "*Friedrich Pollock"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-05-22"
 
 - id: "a"
-  name: "Woche der Solidarität mit Völkern auf Gebieten ohne Selbstregierung"
-  description: "Beginn der Woche der Solidarität mit den Völkern der Gebiete ohne Selbstregierung"
+  name: "Woche d. Solidarität mit Völkern der Gebiete ohne Selbstregierung"
+  description: ""
   category: "action"
   singular: false
   date: "0000-05-25"
+- id: "c"
+  name: "Referendum Abtreibungen Irland"
+  description: ""
+  category: "feminism"
+  singular: false
+  date: "0000-05-25"
+
+- id: "a"
+  name: "†François Noël Babeuf"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-05-27"
 
 - id: "a"
   name: "Aktionstag zur Stammzellspende"
@@ -674,24 +963,26 @@
   date: "0000-05-28"
 
 - id: "a"
-  name: "* Louise Michel"
+  name: "*Louise Michel"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-05-29"
 
 - id: "a"
-  name: "* Bakunin"
+  name: "†Jeanne d‘Arc"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-05-30"
+- id: "b"
+  name: "*Bakunin"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-05-30"
 
-
-
-##############################################
-# JUNE
-##############################################
+# 06
 - id: "a"
   name: "Kindertag"
   description: ""
@@ -699,20 +990,20 @@
   singular: false
   date: "0000-06-01"
 - id: "b"
-  name: "† Hedwig Dohm"
+  name: "†Hedwig Dohm"
   description: ""
   category: "death"
   singular: false
   date: "0000-06-01"
 
 - id: "a"
-  name: "International Sex Workers' Day"
+  name: "International Sex Workers’ Day"
   description: ""
   category: "day"
   singular: false
   date: "0000-06-02"
 - id: "b"
-  name: "† Lucia Sanchez Saornil"
+  name: "†Lucia Sanchez Saornil"
   description: ""
   category: "death"
   singular: false
@@ -731,8 +1022,8 @@
   category: "day"
   singular: false
   date: "0000-06-05"
-- id: "b"
-  name: "† Eugen Leviné"
+- id: "c"
+  name: "†Eugen Leviné"
   description: ""
   category: "death"
   singular: false
@@ -744,6 +1035,12 @@
   category: "day"
   singular: false
   date: "0000-06-06"
+- id: "b"
+  name: "Spiegelcover „Wir haben abgetrieben“"
+  description: ""
+  category: "feminism"
+  singular: false
+  date: "0000-06-06"
 
 - id: "a"
   name: "Tag des Meeres"
@@ -753,14 +1050,14 @@
   date: "0000-06-08"
 
 - id: "a"
-  name: "† İsmail Yaşar"
+  name: "†İsmail Yaşar"
   description: ""
   category: "death"
   singular: false
   date: "0000-06-09"
 
 - id: "a"
-  name: "Tag der Kindersicherheit"
+  name: "Kindersicherheitstag"
   description: ""
   category: "day"
   singular: false
@@ -772,9 +1069,15 @@
   category: "day"
   singular: false
   date: "0000-06-12"
+- id: "b"
+  name: "*Anne Frank"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-06-12"
 
 - id: "a"
-  name: "† Abdurrahim Özüdoğru"
+  name: "†Abdurrahim Özüdoğru"
   description: ""
   category: "death"
   singular: false
@@ -786,43 +1089,55 @@
   category: "day"
   singular: false
   date: "0000-06-14"
-- id: "b"
-  name: "† Emmeline Pankhurst"
+- id: "c"
+  name: "†Emmeline Pankhurst"
   description: ""
   category: "death"
   singular: false
   date: "0000-06-14"
+- id: "d"
+  name: "*Che Guevara"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-06-14"
 
 - id: "a"
-  name: "Welttag gegen Misshandlung älterer Menschen"
+  name: "Welttag gegen die Misshandlung älterer Menschen"
   description: ""
   category: "day"
   singular: false
   date: "0000-06-15"
 - id: "b"
-  name: "† Theodoros Boulgarides"
+  name: "†Theodoros Boulgarides"
   description: ""
   category: "death"
   singular: false
   date: "0000-06-15"
 
 - id: "a"
-  name: "Tag des afrikanischen Kindes"
+  name: "Tag des afrikanischen Kindes (Youth Day)"
   description: ""
   category: "day"
   singular: false
   date: "0000-06-16"
 
 - id: "a"
-  name: "Welttag für die Bekämpfung von Wüstenbildung und Dürre"
+  name: "Welttag Bekämpfung d. Wüstenbildung u. Dürre"
   description: ""
   category: "day"
   singular: false
   date: "0000-06-17"
-- id: "b"
-  name: "† Max Levien"
+- id: "c"
+  name: "†Max Levien"
   description: ""
   category: "death"
+  singular: false
+  date: "0000-06-17"
+- id: "e"
+  name: "Gründung Nationalversammlung"
+  description: ""
+  category: "event"
   singular: false
   date: "0000-06-17"
 
@@ -832,6 +1147,19 @@
   category: "day"
   singular: false
   date: "0000-06-18"
+- id: "b"
+  name: "*Jürgen Habermas"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-06-18"
+
+- id: "a"
+  name: "*Hans Litten"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-06-19"
 
 - id: "a"
   name: "Weltflüchtlingstag"
@@ -839,10 +1167,16 @@
   category: "day"
   singular: false
   date: "0000-06-20"
+- id: "c"
+  name: "†Clara Zetkin"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-06-20"
 
 - id: "a"
-  name: "Autofreier Sonntag"
-  description: "Autofreier Sonntag für umweltgerechten Verkehr & sozialverträgliche öffentliche Mobilität"
+  name: "Autofreier Sonntag für umweltger. Verkehr & sozialverträgliche öffentl. Mobilität"
+  description: ""
   category: "day"
   singular: false
   date: "0000-06-21"
@@ -852,7 +1186,7 @@
   description: ""
   category: "war"
   singular: false
-  date: "1941-06-22"
+  date: "0000-06-22"
 
 - id: "a"
   name: "Tag zur Unterstützung der Folteropfer"
@@ -862,13 +1196,13 @@
   date: "0000-06-26"
 
 - id: "a"
-  name: "* Emma Goldman"
+  name: "*Emma Goldman"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-06-27"
 - id: "b"
-  name: "† Süleyman Taşköprü"
+  name: "†Süleyman Taşköprü"
   description: ""
   category: "death"
   singular: false
@@ -880,92 +1214,152 @@
   category: "action"
   singular: false
   date: "0000-06-28"
-- id: "b"
-  name: "* Jean-Jacques Rousseau"
+- id: "c"
+  name: "*Jean-Jacques Rousseau"
   description: ""
   category: "birthday"
   singular: false
-  date: "1712-06-28"
+  date: "0000-06-28"
 
-
-
-##############################################
-# JULY
-##############################################
+# 07
 - id: "a"
-  name: "† Bakunin"
+  name: "†Bakunin"
   description: ""
   category: "death"
   singular: false
   date: "0000-07-01"
+- id: "b"
+  name: "gesetzliche „Gleichberechtigung“"
+  description: ""
+  category: "event"
+  singular: false
+  date: "0000-07-01"
 
 - id: "a"
-  name: "† Jean-Jacques Rousseau"
+  name: "†Jean-Jacques Rousseau"
   description: ""
   category: "death"
   singular: false
   date: "0000-07-02"
+- id: "b"
+  name: "Civil Rights Act"
+  description: ""
+  category: "event"
+  singular: false
+  date: "0000-07-02"
 
 - id: "a"
-  name: "† Marie Curie"
+  name: "†Marie Curie"
   description: ""
   category: "death"
   singular: false
   date: "0000-07-04"
 
 - id: "a"
-  name: "* Clara Zetkin"
+  name: "*Clara Zetkin"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-07-05"
 
 - id: "a"
-  name: "† Erich Mühsam (Ermordet im KZ)"
+  name: "†Max Horkheimer"
   description: ""
   category: "death"
   singular: false
-  date: "1934-07-10"
+  date: "0000-07-07"
+
+- id: "a"
+  name: "†Erich Mühsam"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-07-10"
+- id: "b"
+  name: "Anerkennung Völkermord an Nama und Herero"
+  description: ""
+  category: "event"
+  singular: false
+  date: "0000-07-10"
 
 - id: "a"
   name: "Tag des Genozid in Srebrenica"
   description: ""
   category: "war"
   singular: false
-  date: "1995-07-11"
+  date: "0000-07-11"
 
 - id: "a"
-  name: "† Marie de Gournay"
+  name: "*Malala Yousafzai"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-07-12"
+
+- id: "a"
+  name: "†Marie de Gournay"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-07-13"
+- id: "b"
+  name: "†Alexander Schmorell"
   description: ""
   category: "death"
   singular: false
   date: "0000-07-13"
 
 - id: "a"
-  name: "Internationaler nicht binär Tag"
+  name: "Internationaler nicht-binär-Tag"
   description: ""
   category: "day"
   singular: false
   date: "0000-07-14"
+- id: "b"
+  name: "Sturm auf die Bastille"
+  description: ""
+  category: "revolution"
+  singular: false
+  date: "0000-07-14"
 
 - id: "a"
-  name: "* Emmeline Pankhurst"
+  name: "*Emmeline Pankhurst"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-07-15"
 
 - id: "a"
-  name: "† Claus Schenk von Stauffenberg (kein Held)"
+  name: "Beginn Spanischer Bürgerkrieg"
+  description: ""
+  category: "war"
+  singular: false
+  date: "0000-07-17"
+
+- id: "a"
+  name: "Stauffenberg-Attentat"
   description: ""
   category: "fascism"
   singular: false
-  date: "1944-07-21"
+  date: "0000-07-20"
+
+- id: "a"
+  name: "Rehabilitierung Homosexueller der NS-Zeit"
+  description: ""
+  category: "fascism"
+  singular: false
+  date: "0000-07-22"
 
 - id: "a"
   name: "Tag der Seenotretter*innen"
   description: ""
   category: "day"
+  singular: false
+  date: "0000-07-26"
+- id: "b"
+  name: "Beginn kubanische Revolution"
+  description: ""
+  category: "revolution"
   singular: false
   date: "0000-07-26"
 
@@ -974,29 +1368,25 @@
   description: ""
   category: "war"
   singular: false
-  date: "1914-07-28"
+  date: "0000-07-28"
 
 - id: "a"
-  name: "† Lida Gustava Heymann"
+  name: "†Lida Gustava Heymann"
   description: ""
   category: "death"
   singular: false
   date: "0000-07-31"
 
-
-
-##############################################
-# AUGUST
-##############################################
+# 08
 - id: "a"
-  name: "† Hubertine Auclert"
+  name: "†Hubertine Auclert"
   description: ""
   category: "death"
   singular: false
   date: "0000-08-04"
 
 - id: "a"
-  name: "† Engels"
+  name: "†Engels"
   description: ""
   category: "death"
   singular: false
@@ -1009,18 +1399,25 @@
   singular: false
   date: "0000-08-06"
 - id: "b"
-  name: "† Adorno"
+  name: "†Adorno"
   description: ""
   category: "death"
   singular: false
   date: "0000-08-06"
 
 - id: "a"
-  name: "* Sabine Hark"
+  name: "*Sabine Hark"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-08-07"
+
+- id: "a"
+  name: "Katzentag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-08-08"
 
 - id: "a"
   name: "Nagasaki"
@@ -1037,55 +1434,74 @@
   date: "0000-08-12"
 
 - id: "a"
-  name: "* Karl Liebknecht"
+  name: "Karl Liebknecht"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-08-13"
-- id: "b"
-  name: "† August Bebel"
+- id: "c"
+  name: "Mauerbau"
+  description: ""
+  category: "communism"
+  singular: false
+  date: "0000-08-13"
+- id: "e"
+  name: "†August Bebel"
   description: ""
   category: "death"
   singular: false
   date: "0000-08-13"
+- id: "f"
+  name: "*Fidel Castro"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-08-13"
 
 - id: "a"
-  name: "* Mercedes Comaposada"
+  name: "*Mercedes Comaposada"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-08-14"
 
 - id: "a"
-  name: "* Clara Gertrud Wichmann"
+  name: "*Clara Gertrud Wichmann"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-08-17"
 
 - id: "a"
-  name: "Welttag der humanitären Hilfe"
+  name: "Welttag der Humanitären Hilfe"
   description: ""
   category: "day"
   singular: false
   date: "0000-08-19"
 
 - id: "a"
-  name: "Erinnerung an den Sklavenhandel & seine Abschaffung"
+  name: "†Oskar Huth"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-08-21"
+
+- id: "a"
+  name: "Erinnerung an den Sklavenhandel (& seine Abschaffung)"
   description: ""
   category: "day"
   singular: false
   date: "0000-08-23"
 
 - id: "a"
-  name: "† Shulamith Firestone"
+  name: "†Shulamith Firestone"
   description: ""
   category: "death"
   singular: false
   date: "0000-08-28"
 
 - id: "a"
-  name: "† Habil Kılıç"
+  name: "†Habil Kılıç"
   description: ""
   category: "death"
   singular: false
@@ -1097,18 +1513,14 @@
   category: "day"
   singular: false
   date: "0000-08-30"
-- id: "a"
-  name: "† Alice Salomon"
+- id: "c"
+  name: "†Alice Salomon"
   description: ""
   category: "death"
   singular: false
   date: "0000-08-30"
 
-
-
-##############################################
-# SEPTEMBER
-##############################################
+# 09
 - id: "a"
   name: "Angriff auf Polen"
   description: ""
@@ -1117,69 +1529,69 @@
   date: "0000-09-01"
 
 - id: "a"
-  name: "Schlacht bei Sedan"
+  name: "Sedantag"
   description: ""
   category: "war"
   singular: false
-  date: "1871-09-02"
+  date: "0000-09-02"
 
 - id: "a"
-  name: "Tag der Wohltätigkeit"
+  name: "*Alexander Schmorell"
   description: ""
-  category: "day"
+  category: "birthday"
   singular: false
-  date: "0000-09-05"
+  date: "0000-09-03"
 
 - id: "a"
-  name: "Europäischer tag der jüdischen Kultur"
+  name: "Europäischer Tag der jüdischen Kultur"
   description: ""
   category: "day"
   singular: false
   date: "0000-09-06"
 - id: "b"
-  name: "† Kate Millett"
+  name: "†Kate Millett"
   description: ""
   category: "death"
   singular: false
   date: "0000-09-06"
 
 - id: "a"
-  name: "Weltalhabetisierungstag"
+  name: "Weltalphabetisierungstag"
   description: ""
   category: "day"
   singular: false
   date: "0000-09-08"
 
 - id: "a"
-  name: "† Enver Şimşek"
+  name: "†Enver Şimşek"
   description: ""
   category: "death"
   singular: false
   date: "0000-09-09"
 
 - id: "a"
-  name: "Welt-Suizid-Präventions-Tag"
+  name: "Welt-Suizid-Präventionstag"
   description: ""
   category: "day"
   singular: false
   date: "0000-09-10"
-- id: "b"
-  name: "† Mary Wollstonecraft"
+- id: "c"
+  name: "†Mary Wollstonecraft"
   description: ""
   category: "death"
   singular: false
   date: "0000-09-10"
 
 - id: "a"
-  name: "* Adorno"
+  name: "*Adorno"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-09-11"
 
 - id: "a"
-  name: "Gedenktag für die Opfer von Flucht, Vertreibung & Deportation"
-  description: "Bayerischer Gedenktag für die Opfer von Flucht, Vertreibung & Deportation"
+  name: "Bayerischer Gedenktag für die Opfer von Flucht, Vertreibung und Deportation"
+  description: ""
   category: "day"
   singular: false
   date: "0000-09-13"
@@ -1190,14 +1602,20 @@
   singular: false
   date: "0000-09-13"
 - id: "c"
-  name: "* Lucia Sanchez Saornil"
+  name: "*Lucia Sanchez Saornil"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-09-13"
 
 - id: "a"
-  name: "* Kate Millett"
+  name: "Tropenwälder"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-09-14"
+- id: "b"
+  name: "*Kate Millett"
   description: ""
   category: "birthday"
   singular: false
@@ -1211,7 +1629,20 @@
   date: "0000-09-15"
 
 - id: "a"
-  name: "* Hedwig Dohm"
+  name: "Erhaltung der Ozonschicht"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-09-16"
+
+- id: "a"
+  name: "Kindertag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-09-20"
+- id: "b"
+  name: "*Hedwig Dohm"
   description: ""
   category: "birthday"
   singular: false
@@ -1231,15 +1662,502 @@
   singular: false
   date: "0000-09-22"
 - id: "b"
-  name: "* Anita Augsburg"
+  name: "Anita Augspurg"
   description: ""
   category: "birthday"
   singular: false
   date: "0000-09-22"
+- id: "c"
+  name: "Hans Scholl"
+  description: ""
+  category: "event"
+  singular: false
+  date: "0000-09-22"
 
 - id: "a"
-  name: "Tag der Legasthenie & Dyskalkulie"
+  name: "Bisexual Pride Day"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-09-23"
+
+- id: "a"
+  name: "Gehörlosentag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-09-27"
+
+- id: "a"
+  name: "Tag der Legasthenie und Dyskalkulie"
   description: ""
   category: "day"
   singular: false
   date: "0000-09-30"
+
+# 10
+- id: "a"
+  name: "Vegetariertag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-01"
+- id: "b"
+  name: "Ehe für alle D"
+  description: ""
+  category: "feminism"
+  singular: false
+  date: "0000-10-01"
+
+- id: "a"
+  name: "Tag der Gewaltlosigkeit"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-02"
+- id: "b"
+  name: "„Vernichtungsbefehl“ Herero"
+  description: ""
+  category: "war"
+  singular: false
+  date: "0000-10-02"
+
+- id: "a"
+  name: "Tag der offenen Moschee"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-03"
+
+- id: "a"
+  name: "Tierschutztag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-04"
+
+- id: "a"
+  name: "Lehrer*innentag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-05"
+- id: "b"
+  name: "†Emilie Schindler"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-10-05"
+- id: "c"
+  name: "Zug der Poissarden"
+  description: ""
+  category: "revolution"
+  singular: false
+  date: "0000-10-05"
+
+- id: "a"
+  name: "Tag der Gewaltfreien Kommunikation"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-06"
+- id: "b"
+  name: "*Marie de Gournay"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-10-06"
+
+- id: "a"
+  name: "Welttag für menschenwürdige Arbeit"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-07"
+
+- id: "a"
+  name: "Welttag des Sehens"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-08"
+
+- id: "a"
+  name: "†Oskar Schindler"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-10-09"
+- id: "b"
+  name: "*Bruno Bachler"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-10-09"
+- id: "c"
+  name: "Beginn „Operation Friedensquelle“"
+  description: ""
+  category: "war"
+  singular: false
+  date: "0000-10-09"
+- id: "d"
+  name: "†Che Guevara"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-10-09"
+
+- id: "a"
+  name: "Gegen Todestrafe"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-10"
+- id: "b"
+  name: "Hundetag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-10"
+
+- id: "a"
+  name: "Coming out day"
+  description: ""
+  category: "feminism"
+  singular: false
+  date: "0000-10-11"
+
+- id: "a"
+  name: "*Hannah Arendt"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-10-14"
+
+- id: "a"
+  name: "Internationaler Tag der Frau in ländlichen Gebieten"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-15"
+- id: "c"
+  name: "*Amparo Poch y Gascon"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-10-15"
+
+- id: "a"
+  name: "Welternährungstag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-16"
+
+- id: "a"
+  name: "Tag für die Beseitigung der Armut"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-17"
+
+- id: "a"
+  name: "Europ. Tag gegen Menschenhandel"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-18"
+
+- id: "a"
+  name: "„Sozialistengesetz“"
+  description: ""
+  category: "fascism"
+  singular: false
+  date: "0000-10-21"
+
+- id: "a"
+  name: "*Emilie Schindler"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-10-22"
+
+- id: "a"
+  name: "Intersex Awareness Day"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-26"
+
+- id: "a"
+  name: "Weltspartag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-10-30"
+
+# 11
+- id: "a"
+  name: "World Vegan Day"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-11-01"
+
+- id: "a"
+  name: "†Olympe de Gouges"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-11-03"
+- id: "b"
+  name: "*Leo Löwenthal"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-11-03"
+
+- id: "a"
+  name: "Tag für Verhütung der Ausbeutung der Umwelt in Kriegen und bewaffneten Konflikten"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-11-06"
+
+- id: "a"
+  name: "Oktoberrevolution"
+  description: ""
+  category: "revolution"
+  singular: false
+  date: "0000-11-07"
+- id: "c"
+  name: "*Marie Curie"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-11-07"
+
+- id: "a"
+  name: "Reichspogromnacht"
+  description: ""
+  category: "holocaust"
+  singular: false
+  date: "0000-11-09"
+
+- id: "a"
+  name: "† Mitglieder der Ehrenfelder Gruppe"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-11-10"
+
+- id: "a"
+  name: "Ende WWI"
+  description: ""
+  category: "war"
+  singular: false
+  date: "0000-11-11"
+
+- id: "a"
+  name: "*Kathleen Hanna"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-11-12"
+- id: "c"
+  name: "Frauenwahlrecht"
+  description: ""
+  category: "feminism"
+  singular: false
+  date: "0000-11-12"
+
+- id: "a"
+  name: "Tag der Autoren hinter Gittern"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-11-15"
+- id: "b"
+  name: "†Bruno Bachler"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-11-15"
+
+- id: "a"
+  name: "Tag für Toleranz"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-11-16"
+
+- id: "a"
+  name: "Transgender Day of Remembrance"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-11-20"
+- id: "b"
+  name: "Beginn Nürnberger Prozesse"
+  description: ""
+  category: "fascism"
+  singular: false
+  date: "0000-11-20"
+
+- id: "a"
+  name: "Weltgedenktag für die Straßenverkehrsopfer"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-11-22"
+
+- id: "a"
+  name: "*Ernst Hegewisch"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-11-23"
+- id: "b"
+  name: "*François Noël Babeuf"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-11-23"
+
+- id: "a"
+  name: "Tag gegen Gewalt an Frauen"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-11-25"
+- id: "b"
+  name: "†Fidel Castro"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-11-25"
+
+- id: "a"
+  name: "*Kropotkin"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-11-27"
+- id: "b"
+  name: "*Barthel Schink"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-11-27"
+
+- id: "a"
+  name: "*Engels"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-11-28"
+
+# 12
+- id: "a"
+  name: "*Ernst Toller (1893)"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-12-01"
+
+- id: "a"
+  name: "†Hannah Arendt"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-12-04"
+
+- id: "a"
+  name: "Tag des Ehrenamtes"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-12-05"
+
+- id: "a"
+  name: "Anti-Korruptions-Tag"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-12-09"
+
+- id: "a"
+  name: "Tag der Menschenrechte"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-12-10"
+
+- id: "a"
+  name: "Abtreibungen in Irland legal"
+  description: ""
+  category: "feminism"
+  singular: false
+  date: "0000-12-13"
+
+- id: "a"
+  name: "†Friedrich Pollock"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-12-16"
+
+- id: "a"
+  name: "Tag der Migranten"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-12-18"
+- id: "b"
+  name: "*Stalin"
+  description: ""
+  category: "birthday"
+  singular: false
+  date: "0000-12-18"
+
+- id: "a"
+  name: "Gedenken für die Opfer des Völkermordes an den Sinti und Roma"
+  description: ""
+  category: "event"
+  singular: false
+  date: "0000-12-19"
+
+- id: "a"
+  name: "Tag der menschlichen Solidarität"
+  description: ""
+  category: "day"
+  singular: false
+  date: "0000-12-20"
+- id: "b"
+  name: "†Anita Augspurg"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-12-20"
+
+- id: "a"
+  name: "†Rudi Dutschke"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-12-24"
+
+- id: "a"
+  name: "†Ernst Hegewisch"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-12-28"
+
+- id: "a"
+  name: "†Josephine Butler"
+  description: ""
+  category: "death"
+  singular: false
+  date: "0000-12-30"
+
