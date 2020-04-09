@@ -1,39 +1,45 @@
-- id: birthday
-  name: Geburtstag
-  color: "#64b3cc"
-- id: death
-  name: Todestag
-  color: "#5c5470"
-- id: feminism
-  name: Feminismus
-  color: "#b83bb6"
-- id: anarchy
-  name: Anarchismus
-  color: "#302c2c"
 - id: communism
   name: Kommunismus
-  color: "#d90e0e"
+  color: "#ff2155"
 - id: revolution
   name: Revolution
-  color: "#ffbf00"
-- id: disaster
-  name: Desaster
-  color: "#090808"
-- id: war
-  name: Krieg
-  color: "#d9534f"
-- id: fascism
-  name: Faschismus
-  color: "#8d5524"
-- id: holocaust
-  name: Holocaust
-  color: "#090808"
-- id: day
-  name: Tag zu..
-  color: "#cc7c48"
+  color: "#eb3535"
+- id: anarchy
+  name: Anarchismus
+  color: "#918f90"
+- id: feminism
+  name: Feminismus
+  color: "#ff21d8"
 - id: action
   name: Aktion
-  color: "#5cb85c"
+  color: "#ffb721"
 - id: event
   name: Event
-  color: "#7c8588"
+  color: "#3e8be2"
+- id: day
+  name: "Tag des …"
+  color: "#bde838"
+- id: birthday
+  name: Geburtstag
+  color: "#21b1ff"
+- id: death
+  name: Todestag
+  color: "#7796a9"
+- id: disaster
+  name: Desaster
+  color: "#7c7c7c"
+- id: terror
+  name: Terror
+  color: "#9f816d"
+- id: fascism
+  name: Faschismus
+  color: "#c97f57"
+- id: war
+  name: Krieg
+  color: "#767676"
+- id: genocide
+  name: "Genozid / Massaker"
+  color: "#656565"
+- id: holocaust
+  name: Holocaust
+  color: "#565656"
