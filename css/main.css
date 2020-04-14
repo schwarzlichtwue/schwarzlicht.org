@@ -1,5 +1,8 @@
+html { font-size: 100%; }
+
 main {
      flex: 1 0 auto;
+	 hyphens: auto;
 }
 body {
     background: #fff;
@@ -8,8 +11,8 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-	font-size:1.2em;
-	hyphens: auto;
+	font-size:1em;
+	hyphens: manual;
 }
 
 nav {
@@ -18,16 +21,13 @@ nav {
 
 		.sidenav-link {
 			color: #7a001f !important;
-			font-size: 1rem;
 		}
 
 		.dropdown-link {
 			color: #7a001f !important;
-			font-size: 1rem;
 		}
 
 		.logo-link {
-			font-size: 1rem;
 		}
 		
 		.logo:hover {
@@ -62,7 +62,6 @@ article {
 
 article p {
 	line-height: 2;
-	font-size: 110%;
 }
 
 article a {
@@ -70,7 +69,7 @@ article a {
 }
 
 blockquote p {
-	font-size: 1em !important;
+	font-size: 0.9em !important;
 	line-height: 1.5 !important;
 }
 
@@ -97,7 +96,7 @@ blockquote p {
 @media only screen and (max-width: 992px) {
 
 		body {
-				font-size: 1em !important;
+				font-size: 0.85rem !important;
 		}
 		h1 {
 			font-size: 1.55em !important;
@@ -134,34 +133,34 @@ blockquote p {
 }
 
 h1 {
-	font-size: 3.1em;
+	font-size: 2.0em;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
-	font-size: 2.49em;
+	font-size: 1.8em;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
-	font-size: 2.04em;
+	font-size: 1.6em;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 }
 h4 {
-	font-size: 1.60em;
+	font-size: 1.4em;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 }
 h5 {
-	font-size: 1.15em;
+	font-size: 1.2em;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 }
 h6 {
-	font-size: 0.80em;
+	font-size: 1.1em;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -177,23 +176,24 @@ p {
 
 .post-date {
 	color: #777;
-	font-size: 80%;
+	font-size: 0.9em;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .post-locations {
 	color: #777;
-	font-size: 80%;
+	font-size: 0.9em;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .post-category {
-	font-size: 80%;
+	font-size: 1.1em;
+	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .media-description {
-	font-size: 80%;
+	font-size: 0.9em;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -270,6 +270,7 @@ h3 a:hover {
  color:#444;
  display:inline-block;
  font-size:1.2rem;
+ text-decoration: none;
  padding:0 10px;
  line-height:30px
 }
