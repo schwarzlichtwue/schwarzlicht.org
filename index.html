@@ -26,10 +26,11 @@ pagination:
 			{% include paginator.html %}
 		</div>
 	</div>
-	{% for post in paginator.posts %}
-	{% include post.html %}
-	{% endfor %}
-
+	<div class="row">
+		{% for post in paginator.posts %}
+		{% include post.html %}
+		{% endfor %}
+	</div>
 	<div class="center">
 		{% include paginator.html %}
 	</div>
