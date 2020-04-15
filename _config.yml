@@ -33,6 +33,7 @@ plugins:
 jekyll-minifier:
   uglifier_args:
     harmony: true
+  exclude: '*.ics'
 
 pagination:
         enabled: true
