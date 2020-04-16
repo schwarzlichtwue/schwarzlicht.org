@@ -180,16 +180,22 @@ var CalendarShell = function () {
 
 			let detail_elem = document.createElement("div");
 			detail_elem.classList.add("task__detail");
+
+			let loc_hor = 'left';
 			if (entry.loc.column >=5) {
-				detail_elem.classList.add("far-right");
-			} else {
+				loc_hor = 'right';
+			//	detail_elem.classList.add("far-right");
+			} /*else {
 				detail_elem.classList.add("far-left");
-			}
+			}*/
+			let loc_vert = 'top';
 			if (entry.loc.row >=5) {
-				detail_elem.classList.add("far-down");
-			} else {
+			//	detail_elem.classList.add("far-down");
+				loc_vert = 'bottom';
+			} /*else {
 				detail_elem.classList.add("far-up");
-			}
+			}*/
+			detail_elem.setAttribute("style", loc_vert + ": calc(100% + 10px);" + loc_hor + ": 0;");
 			detail_elem.setAttribute("id", id + "-detail");
 			entry_elem.appendChild(detail_elem);
 
