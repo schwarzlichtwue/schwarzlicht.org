@@ -180,22 +180,16 @@ var CalendarShell = function () {
 
 			let detail_elem = document.createElement("div");
 			detail_elem.classList.add("task__detail");
-
-			let loc_hor = 'left';
 			if (entry.loc.column >=5) {
-				loc_hor = 'right';
-			//	detail_elem.classList.add("far-right");
-			} /*else {
+				detail_elem.classList.add("far-right");
+			} else {
 				detail_elem.classList.add("far-left");
-			}*/
-			let loc_vert = 'top';
+			}
 			if (entry.loc.row >=5) {
-			//	detail_elem.classList.add("far-down");
-				loc_vert = 'bottom';
-			} /*else {
+				detail_elem.classList.add("far-down");
+			} else {
 				detail_elem.classList.add("far-up");
-			}*/
-			detail_elem.setAttribute("style", loc_vert + ": calc(100% + 10px);" + loc_hor + ": 0;");
+			}
 			detail_elem.setAttribute("id", id + "-detail");
 			entry_elem.appendChild(detail_elem);
 
@@ -203,6 +197,13 @@ var CalendarShell = function () {
 			let detail_headline_text_elem = document.createTextNode(entry.name);
 			detail_headline_elem.appendChild(detail_headline_text_elem);
 			detail_elem.appendChild(detail_headline_elem);
+
+			if (ye > 1){
+				let detail_year_elem = document.createElement("h3");
+				let detail_year_text_elem = document.createTextNode("("+new String(ye)+")");
+				detail_year_elem.appendChild(detail_year_text_elem);
+				detail_elem.appendChild(detail_year_elem);
+			}
 
 			let detail_desc_elem = document.createElement("p");
 			detail_desc_elem.innerHTML = entry.description;
