@@ -156,7 +156,6 @@
 	padding: 8px 12px;
 	margin: 10px;
 	hyphens: auto;
-	word-break: break-all;
 	border-left-width: 3px;
 	border-left-style: solid;
 	font-size: 10px;
@@ -179,13 +178,13 @@
 
 	&__detail {
 		cursor: auto;
-		word-break: normal;
-		hyphens: none;
+		hyphens: auto;
 		display: none;
 		position: absolute;
 		background: inherit;
 		border: 1px solid rgba(166, 168, 179, 0.2);
-		padding: 20px;
+		padding: 10px;
+		width:200%;
 		box-sizing: border-box;
 		border-radius: 4px;
 		box-shadow:0 10px 40px rgba(0,0,0,0.08);

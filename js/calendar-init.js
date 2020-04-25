@@ -35,35 +35,6 @@ let calendar_month_update = function(direction){
 		location.reload();
 
 }
-/* Make entries interactive: hover over an entry to expand details */
-let calendar_sticked = null;
-let calendar_detail = function(section_id, expand, stick){
-		let detail_id = section_id + '-detail';
-		let section = document.querySelector(section_id);
-		let detail = document.querySelector(detail_id);
-		let sticked_detail_id = calendar_sticked + '-detail';
-		let sticked_section = document.querySelector(calendar_sticked);
-		let sticked_detail = document.querySelector(sticked_detail_id);
-		// Check if section_id is in calendar_sticks
-		if (section_id == calendar_sticked) {
-				if (!stick){
-						return;
-				}
-				detail.style.display = "none";
-				// Remove the section_id from calendar_sticks
-				calendar_sticked = null;
-		} else {
-				if (stick){
-						if(sticked_detail){
-								sticked_detail.style.display = "none";
-						}
-						detail.style.display = "block";
-						calendar_sticked = section_id;
-				} else {
-						detail.style.display = (expand && "block") || "none";
-				}
-		}
-}
 
 document.addEventListener('DOMContentLoaded', function() {
 	for (let category_id of Object.keys(calendar_categories)){
