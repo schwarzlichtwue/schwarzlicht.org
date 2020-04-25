@@ -21,7 +21,7 @@
 
 - id: "a"
   name: "*Greta Thunberg"
-  description: "Die von ihr gegründete Klimabewegung gibt es auch in <a href=/other/groups/#fff>Würzburg</a>"
+  description: "Die von Greta Thunberg gegründete Klimabewegung gibt es auch in <a href=/other/groups/#fff>Würzburg</a>"
   category: "birthday"
   singular: false
   date: "2003-01-03"
@@ -55,7 +55,7 @@
   date: "1945-01-07"
 - id: "b"
   name: "†Oury Jalloh"
-  description: "Zu seinem 15. Todestag <a href=/p/2020-01-07-1214607809293234176.html>berichteten</a> wir"
+  description: "Wir <a href=/p/2020-01-07-1214607809293234176.html>berichteten</a> zu seinem 15. Todestag"
   category: "death"
   singular: false
   date: "2005-01-07"
@@ -534,7 +534,7 @@
   date: "1833-03-07"
 - id: "b"
   name: "*Rudi Dutschke"
-  description: "Die Person Rudi Dutschke wird heute <a href=/p/2019-12-19-1207762441884577792.html>von Rechten missbraucht</a>"
+  description: "Heutzutage nutzen Rechte Dutschke für ihre <a href=/p/2019-12-19-1207762441884577792.html>Propaganda</a>"
   category: "birthday"
   singular: false
   date: "1940-03-07"
@@ -791,7 +791,7 @@
 
 - id: "a"
   name: "*Erich Mühsam"
-  description: "Anlässlich zu seinem Geburtstag <a href=/p/2020-04-06-1247086898578931713.html>schrieben wir zu seiner Person</a>"
+  description: "<a href=/p/2020-04-06-1247086898578931713.html>Unser Artikel</a> zu Erich Mühsam"
   category: "birthday"
   singular: false
   date: "1878-04-06"
@@ -821,7 +821,7 @@
   singular: false
   date: "1870-04-07"
 - id: "c"
-  name: "Ausrufung Münchener Räterepublik, Würzbuger Räterepublik"
+  name: "Ausrufung Münchener & Würzburger Räterepublik"
   description: "<a href=/p/2020-04-07-1247431231152820224.html>Unser Bericht zur Räterepublik</a>"
   category: "revolution"
   singular: false
@@ -862,7 +862,7 @@
   date: "1945-04-11"
 - id: "b"
   name: "Schüsse auf Dutschke"
-  description: "Die Person Rudi Dutschke wird heute <a href=/p/2019-12-19-1207762441884577792.html>von Rechten missbraucht</a>"
+  description: "Heutzutage nutzen Rechte Dutschke für ihre <a href=/p/2019-12-19-1207762441884577792.html>Propaganda</a>"
   category: "terror"
   singular: false
   date: "1968-04-11"
@@ -1864,7 +1864,7 @@
 
 - id: "a"
   name: "†Erich Mühsam"
-  description: "Anlässlich zu seinem Geburtstag <a href=/p/2020-04-06-1247086898578931713.html>schrieben wir zu seiner Person</a>"
+  description: "<a href=/p/2020-04-06-1247086898578931713.html>Unser Artikel</a> zu Erich Mühsam"
   category: "death"
   singular: false
   date: "1934-07-10"
