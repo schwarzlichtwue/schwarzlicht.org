@@ -25,6 +25,7 @@ var CalendarShell = function () {
 		this.entries = entries;
 		this.month_names = month_names;
 		this.weekdays = weekdays;
+		this.active_detail = null;
 	}
 
 	var _proto = CalendarShell.prototype;
@@ -156,27 +157,21 @@ var CalendarShell = function () {
 			if (!(da in current_entry_day_counter)){
 				current_entry_day_counter[da] = 0;
 			}
-			//let align_selves = ["end", "center", "start"];
-			//let align_self = align_selves[day_counter[da]%align_selves.length];
 			let align_self = 120 * (current_entry_day_counter[da] / day_counter[da]);
 			current_entry_day_counter[da]++;
 
 			entry_elem.classList.add("task");
 			entry_elem.classList.add("task--"+entry.category);
 			entry_elem.setAttribute("id", id);
-			entry_elem.setAttribute("onmouseover", "calendar_detail('#" + id + "', true, false)");
-			entry_elem.setAttribute("onmouseout", "calendar_detail('#" + id + "', false, false)");
-			entry_elem.setAttribute("onclick", "calendar_detail('#" + id + "', false, true)");
-			//entry_elem.setAttribute("style", "grid-row:"+ entry.loc.row +"; grid-column:"+entry.loc.column+"; align-self:"+align_self);
 			entry_elem.setAttribute("style", "grid-row:"+ entry.loc.row +"; grid-column:"+entry.loc.column+"; bottom: calc("+align_self +"px)");
-			calendar_elem.appendChild(entry_elem);
 
 			let title = entry.name.substring(0,30);
 			if (ye > 1){
-				title = title + " ("+new String(ye)+")";
+				title = new String(ye) + ": " + title;
 			}
 			let entry_text_elem = document.createTextNode(title);
 			entry_elem.appendChild(entry_text_elem);
+			calendar_elem.appendChild(entry_elem);
 
 			let detail_elem = document.createElement("div");
 			detail_elem.classList.add("task__detail");
@@ -200,7 +195,7 @@ var CalendarShell = function () {
 
 			if (ye > 1){
 				let detail_year_elem = document.createElement("h3");
-				let detail_year_text_elem = document.createTextNode("("+new String(ye)+")");
+				let detail_year_text_elem = document.createTextNode(new String(ye));
 				detail_year_elem.appendChild(detail_year_text_elem);
 				detail_elem.appendChild(detail_year_elem);
 			}
@@ -208,6 +203,11 @@ var CalendarShell = function () {
 			let detail_desc_elem = document.createElement("p");
 			detail_desc_elem.innerHTML = entry.description;
 			detail_elem.appendChild(detail_desc_elem);
+
+
+			entry_elem.addEventListener("mouseover", this.mouseover.bind(this));
+			entry_elem.addEventListener("mouseout", this.mouseout.bind(this));
+			entry_elem.addEventListener("click", this.onclick.bind(this));
 		}
 	};
 
@@ -248,6 +248,56 @@ var CalendarShell = function () {
 
 		let column = (index % 7) + 1;
 		return {"column": column, "row": row}
+	}
+
+	/** 
+	 * Display an entry's details on click
+	 */
+	_proto.onclick = function onclick(event) {
+		if (event.target.id == null || event.target.id == '' || event.target.id.endsWith('-detail') || event.target.parentNode.id.endsWith('-detail') || event.target.tagName!=("SECTION")){
+			return;
+		}
+		let detail = document.querySelector('#' + event.target.id + '-detail');
+		if (detail != this.active_detail){
+			if (this.active_detail != null){
+				this.active_detail.style.display = "none";
+			}
+			this.active_detail = detail;
+			this.active_detail.style.display = "block";
+		} else {
+			if (this.active_detail.style.display === "none"){
+				this.active_detail.style.display = "block";
+			} else {
+				this.active_detail.style.display = "none";
+				this.active_detail = null;
+			}
+		}
+	}
+	/** 
+	 * Display an entry's details
+	 */
+	_proto.mouseover = function mouseover(event) {
+		if (event.target.id == null || event.target.id == ''){
+			return;
+		}
+		if (!event.target.id.endsWith('-detail')) {
+			let detail = document.querySelector('#' + event.target.id + '-detail');
+			detail.style.display = "block";
+		}
+	}
+	/** 
+	 * Hide an entry's details
+	 */
+	_proto.mouseout = function mouseout(event) {
+		if (event.target.id == null || event.target.id == ''){
+			return;
+		}
+		if (!event.target.id.endsWith('-detail')) {
+			let detail = document.querySelector('#' + event.target.id + '-detail');
+			if (detail != this.active_detail){
+				detail.style.display = "none";
+			}
+		}
 	}
 
 

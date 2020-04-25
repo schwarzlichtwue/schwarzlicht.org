@@ -21,14 +21,14 @@
 
 - id: "a"
   name: "*Greta Thunberg"
-  description: ""
+  description: "Die von ihr gegründete Klimabewegung gibt es auch in <a href=/other/groups/#fff>Würzburg</a>"
   category: "birthday"
   singular: false
   date: "2003-01-03"
 
 - id: "a"
   name: "*Georg Elser"
-  description: ""
+  description: "<a href=https://antifawuerzburg.blackblogs.org/2019/11/08/verschwiegen-ermordet-verleugnet-zum-80-jahrestag-des-georg-elser-attentats/>Bericht</a> der Antifa zum 80. Jahrestag seines Attentats auf Hitler"
   category: "birthday"
   singular: false
   date: "1903-01-04"
@@ -55,7 +55,7 @@
   date: "1945-01-07"
 - id: "b"
   name: "†Oury Jalloh"
-  description: ""
+  description: "Zu seinem 15. Todestag <a href=/p/2020-01-07-1214607809293234176.html>berichteten</a> wir"
   category: "death"
   singular: false
   date: "2005-01-07"
@@ -366,7 +366,7 @@
   date: "1907-02-16"
 - id: "b"
   name: "Ende der Haft Deniz Yücels"
-  description: ""
+  description: "Deniz Yücel war am 17.11.2019 in Würzburg. Wir <a href=/p/2019-11-17-1196184650214989824.html>berichteten</a>"
   category: "event"
   singular: false
   date: "2018-02-16"
@@ -385,7 +385,7 @@
   date: "1976-02-19"
 - id: "c"
   name: "Anschlag Hanau"
-  description: ""
+  description: "Am Folgetag gab es eine <a href=/p/2020-02-20-1230557275535757314.html>Spontandemo</a> in Würzburg. Zehn Tage später gab es einen <a href=/p/2020-02-29-1233798392972742657.html>Schweigemarsch</a>."
   category: "terror"
   singular: false
   date: "2020-02-19"
@@ -469,7 +469,7 @@
   date: "1933-02-27"
 - id: "b"
   name: "Beginn der Haft Deniz Yücels"
-  description: ""
+  description: "Deniz Yücel war am 17.11.2019 in Würzburg. Wir <a href=/p/2019-11-17-1196184650214989824.html>berichteten</a>"
   category: "event"
   singular: false
   date: "2017-02-27"
@@ -534,14 +534,14 @@
   date: "1833-03-07"
 - id: "b"
   name: "*Rudi Dutschke"
-  description: ""
+  description: "Die Person Rudi Dutschke wird heute <a href=/p/2019-12-19-1207762441884577792.html>von Rechten missbraucht</a>"
   category: "birthday"
   singular: false
   date: "1940-03-07"
 
 - id: "a"
   name: "Frauenkampftag"
-  description: ""
+  description: "Anlässlich des Frauenkampftags 2020 veröffentlichten wir zwei Texte, welche sich mit <a href=/p/2020-03-06-1235897000928964608.html>Feminismus und Kapitalismus</a> und <a href=/p/2020-03-07-1236231654416543744.html>Rollenbildern</a> befassen"
   category: "feminism"
   singular: false
   date: "0001-03-08"
@@ -791,7 +791,7 @@
 
 - id: "a"
   name: "*Erich Mühsam"
-  description: ""
+  description: "Anlässlich zu seinem Geburtstag <a href=/p/2020-04-06-1247086898578931713.html>schrieben wir zu seiner Person</a>"
   category: "birthday"
   singular: false
   date: "1878-04-06"
@@ -822,14 +822,14 @@
   date: "1870-04-07"
 - id: "c"
   name: "Ausrufung Münchener Räterepublik, Würzbuger Räterepublik"
-  description: ""
+  description: "<a href=/p/2020-04-07-1247431231152820224.html>Unser Bericht zur Räterepublik</a>"
   category: "revolution"
   singular: false
   date: "1919-04-07"
 
 - id: "a"
   name: "Internationaler Tag der Roma"
-  description: ""
+  description: "Zum internationalen Tag der Roma haben wir eine Recherche über „Antiziganismus“ in Rumänien <a href=/p/2020-04-08-1247807373286100992.html>veröffentlicht</a>"
   category: "day"
   singular: false
   date: "0001-04-08"
@@ -862,7 +862,7 @@
   date: "1945-04-11"
 - id: "b"
   name: "Schüsse auf Dutschke"
-  description: ""
+  description: "Die Person Rudi Dutschke wird heute <a href=/p/2019-12-19-1207762441884577792.html>von Rechten missbraucht</a>"
   category: "terror"
   singular: false
   date: "1968-04-11"
@@ -1864,7 +1864,7 @@
 
 - id: "a"
   name: "†Erich Mühsam"
-  description: ""
+  description: "Anlässlich zu seinem Geburtstag <a href=/p/2020-04-06-1247086898578931713.html>schrieben wir zu seiner Person</a>"
   category: "death"
   singular: false
   date: "1934-07-10"
@@ -2514,7 +2514,7 @@
 
 - id: "a"
   name: "Gründung Chaos Computer Club"
-  description: ""
+  description: "<a href=https://www.ccc.de/>CCC</a>"
   category: "event"
   singular: false
   date: "1981-09-12"
@@ -2748,11 +2748,11 @@
   singular: false
   date: "1946-10-01"
 - id: "d"
-  name: "2017 Inkrafttreten der Ehe für alle D"
+  name: "Inkrafttreten der Ehe für alle D"
   description: ""
   category: "feminism"
   singular: false
-  date: "0001-10-01"
+  date: "2017-10-01"
 
 - id: "a"
   name: "Tag der Gewaltlosigkeit"
@@ -2845,7 +2845,7 @@
   date: "1967-10-09"
 - id: "e"
   name: "Anschlag Halle"
-  description: ""
+  description: "Anlässlich des Anschlags in Halle gab es in Würzburg am selben Tag eine <a href=/p/2019-10-09-1181994336986308609.html>Spontandemo</a>"
   category: "terror"
   singular: false
   date: "2019-10-09"
@@ -3179,14 +3179,14 @@
 
 - id: "a"
   name: "Gründung der Zapatistas"
-  description: ""
+  description: "Heute finanzieren u.a. Einnahmen durch Kaffeeverkauf den Fortbestand der Bewegung."
   category: "anarchy"
   singular: false
   date: "1983-11-17"
 
 - id: "a"
   name: "Transgender Day of Remembrance"
-  description: ""
+  description: "MissMutig und Antifa organisierten im Jahr 2019 ein <a href=/p/2019-11-21-1197591760333082624.html>Gedenken</a>"
   category: "day"
   singular: false
   date: "0001-11-20"
@@ -3237,7 +3237,7 @@
 
 - id: "a"
   name: "Tag der Beseitigung von Gewalt gegen Frauen"
-  description: ""
+  description: "Um auf dieses Thema aufmerksam zu machen, <a href=/p/2020-04-16-1250736292066967560.html>veröffentlichen</a> wir immer wieder Artikel."
   category: "day"
   singular: false
   date: "0001-11-25"
@@ -3413,7 +3413,7 @@
   singular: false
   date: "0001-12-19"
 - id: "b"
-  name: "Anschlag Breitschneideplatz"
+  name: "Anschlag Breitscheidplatz"
   description: ""
   category: "terror"
   singular: false
