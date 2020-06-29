@@ -1,0 +1,73 @@
+---
+title: Lexikon
+layout: sub
+---
+{% assign entries = "" | split: "" %}
+{% for entry in site.data.lexicon.entries %}
+{% assign entries = entries | push: entry[1] %}
+{% endfor %}
+{% assign entries = entries | sort: "name" %}
+
+
+<article>
+	<div class="container">
+		<div class="row">
+			<h1>Lexikon: Gewaltfreie Sprache</h1>
+			<p>
+				Sich diskriminierungsfrei
+				ausdrücken - das ist ein kompliziertes Feld, welches ständig im Wandel
+				ist. Worte können verletzen und es ist deshalb wichtig, sich dessen bewusst zu machen. Um
+				alles richtig zu machen, muss sich mensch vorher lange und intensiv mit
+				der Thematik beschäftigt haben. Wir möchten uns mit diesem Lexikon
+				nicht als Expert*innen ausgeben und machen selbst nicht alles richtig,
+				denn auch wir lernen stetig. Dennoch ist uns aufgefallen, dass wir bei
+				unseren Texten teils unklare Begriffe verwenden und nicht immer allen
+				Leser*innen klar ist, was deren Bedeutung ist.
+				<br />
+				Diese Seite ist ein Versuch, unklare Begrifflichkeiten zu erklären und eine
+				Hilfestellung für Menschen anzubieten, die sich noch nicht jahrelang mit dem Thema
+				auseinandergesetzt haben.
+			</p>
+			<p>
+				Grundsätzlich gilt: lieber nachfragen, als etwas falsch machen. Dennoch
+				muss Verständnis dafür herrschen, dass betroffene Personen gewisse Fragen
+				wahrscheinlich schon hundert Mal beantworten mussten und nicht immer
+				Lust haben, Dinge ständig zu wiederholen. Z.B. könnten es BI_PoC
+				satt haben, immer und immer wieder weißen Menschen strukturellen Rassismus
+				zu erklären und alles vorzukauen. Stattdessen können sich weiße Personen
+				selbst mit den Themen auseinandersetzen.
+				Nachfragen ist legitim und oft wichtig, aber viel Wissen
+				können sich privilegierte Personen selbst aneignen und das ist noch
+				das geringste, was marginalisierte Gruppen erwarten können.
+			</p>
+		</div>
+		<div class="row">
+			<h2>Übersicht</h2>
+			<ul class="collection hide-on-small-only">
+				{% for entry in entries %}
+				<li class="collection-item">
+					<a href="#{{entry.id}}">
+						{{ entry.name }}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		{% for entry in entries %}
+		<div class="row">
+			<h3 id="{{ entry.id }}">{{ entry.name }}
+				{% if entry.alternatives %}
+				{% for alternative in entry.alternatives %}
+				/ {{ alternative }}
+				{% endfor %}
+				{% endif %}
+				<a class="sl-red-text" href="{{ site.url }}{{ page.url }}#{{ entry.id }}"><i class="fas fa-share-alt-square fa-xs"></i></a>
+			</h3>
+			<div>
+				{{ entry.description }}
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</article>

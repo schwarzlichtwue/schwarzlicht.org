@@ -1,0 +1,14 @@
+id: trigger-warnung
+name: Trigger-Warnung
+alternatives:
+  - "Content Note (CN)"
+  - "Content Warning (CW)"
+  - "Trigger-Warning (TW)"
+description: |
+  <p>Content Notes (CN), Content Warning (CW) oder auch Triggerwarnings sollten am
+  Anfang eines jeden Textes stehen/genannt werden, in dem potenziell triggernde
+  Inhalte vorkommen. Beispiele hierfür sind z.B. (sexualisierte) Gewalt, Rassismus
+  oder Mord. Ein CN kann aber jedoch bereits bei vermeintlich harmlosen Themen wie
+  Essen verwendet werden. Denn sogar das Thema Essen hat das Potenzial essgestörte
+  Menschen zu triggern. Twitter bietet außerdem die Möglichkeit sich Texte mit
+  bestimmten CN oder CW nicht anzeigen zu lassen.</p>
