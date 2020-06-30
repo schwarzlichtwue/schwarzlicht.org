@@ -12,7 +12,7 @@ layout: sub
 <article>
 	<div class="container">
 		<div class="row">
-			<h1>Lexikon: Gewaltfreie Sprache</h1>
+			<h1>Lexikon: Diskriminierungsfreie Sprache</h1>
 			<p>
 				Sich diskriminierungsfrei
 				ausdrücken - das ist ein kompliziertes Feld, welches ständig im Wandel
@@ -43,7 +43,7 @@ layout: sub
 		</div>
 		<div class="row">
 			<h2>Übersicht</h2>
-			<ul class="collection hide-on-small-only">
+			<ul class="collection">
 				{% for entry in entries %}
 				<li class="collection-item">
 					<a href="#{{entry.id}}">
@@ -62,7 +62,7 @@ layout: sub
 				/ {{ alternative }}
 				{% endfor %}
 				{% endif %}
-				<a class="sl-red-text" href="{{ site.url }}{{ page.url }}#{{ entry.id }}"><i class="fas fa-share-alt-square fa-xs"></i></a>
+				<a class="sl-red-text" href="#{{ entry.id }}"><i class="fas fa-share-alt-square fa-xs"></i></a>
 			</h3>
 			<div>
 				{{ entry.description }}
