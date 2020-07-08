@@ -1,5 +1,6 @@
 id: gender
 name: Genderzuweisung
+topic: gender
 alternatives:
   - Geschlechtzuweisung
 description: |

@@ -7,7 +7,7 @@ layout: sub
 {% assign entries = entries | push: entry[1] %}
 {% endfor %}
 {% assign entries = entries | sort: "name" %}
-
+{% assign topics = site.data.lexicon.topics | sort: "name" %}
 
 <article>
 	<div class="container">
@@ -19,10 +19,10 @@ layout: sub
 				ist. Worte können verletzen und es ist deshalb wichtig, sich dessen bewusst zu machen. Um
 				alles richtig zu machen, muss sich mensch vorher lange und intensiv mit
 				der Thematik beschäftigt haben. Wir möchten uns mit diesem Lexikon
-				nicht als Expert*innen ausgeben und machen selbst nicht alles richtig,
+				nicht als Expert:innen ausgeben und machen selbst nicht alles richtig,
 				denn auch wir lernen stetig. Dennoch ist uns aufgefallen, dass wir bei
 				unseren Texten teils unklare Begriffe verwenden und nicht immer allen
-				Leser*innen klar ist, was deren Bedeutung ist.
+				Leser:innen klar ist, was deren Bedeutung ist.
 				<br />
 				Diese Seite ist ein Versuch, unklare Begrifflichkeiten zu erklären und eine
 				Hilfestellung für Menschen anzubieten, die sich noch nicht jahrelang mit dem Thema
@@ -43,13 +43,18 @@ layout: sub
 		</div>
 		<div class="row">
 			<h2>Übersicht</h2>
-			<ul class="collection">
-				{% for entry in entries %}
-				<li class="collection-item">
-					<a href="#{{entry.id}}">
-						{{ entry.name }}
-					</a>
-				</li>
+			<ul class="collection with-header">
+				{% for topic in topics %}
+				<li class="collection-header"><h6>{{topic.name}}</h6></li>
+							{% for entry in entries %}
+							{% if entry.topic == topic.id %}
+							<li class="collection-item">
+								<a href="#{{entry.id}}">
+									{{ entry.name }}
+								</a>
+							</li>
+							{% endif %}
+							{% endfor %}
 				{% endfor %}
 			</ul>
 		</div>
@@ -62,11 +67,13 @@ layout: sub
 				/ {{ alternative }}
 				{% endfor %}
 				{% endif %}
-				<a class="sl-red-text" href="#{{ entry.id }}"><i class="fas fa-share-alt-square fa-xs"></i></a>
+				{% comment %}<a class="sl-red-text" href="#{{ entry.id }}"><i class="fas fa-share-alt-square fa-xs"></i></a>{% endcomment %}
 			</h3>
 			<div>
 				{{ entry.description }}
 			</div>
+		</div>
+		<div class="divider">
 		</div>
 		{% endfor %}
 	</div>
