@@ -1,5 +1,6 @@
 id: trigger-warnung
 name: Trigger-Warnung
+topic: language
 alternatives:
   - "Content Note (CN)"
   - "Content Warning (CW)"
