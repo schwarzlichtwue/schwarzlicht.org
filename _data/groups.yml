@@ -11,6 +11,7 @@
                 twitter: "https://twitter.com/antifa_wue"
                 mail: "mailto:antifa-wuerzburg@riseup.net"
                 website: "https://antifawuerzburg.blackblogs.org"
+            description: "Die Antifa Würzburg bekämpft die lokalen Faschist:innen. Darüberhinaus setzt sich die Gruppe mit Aktionen und Bildung für eine progressive Welt ohne Ausbeutung und mit emanzipatorischer sowie antikapitalistischer Politik ein."
           - id: florakreis
             name: Florakreis
             active: "true"
@@ -18,6 +19,15 @@
             description: "Der Florakreis Würzburg ist ein Kreis politisch links orientierter Menschen mit verschiedenen Ausrichtungen. Benannt ist er nach der ehemaligen Gaststätte „Flora“ in der Sanderau, in der er gegründet wurde. Wichtig sind für uns Bündnisarbeit und Aufbau von vernetzten Strukturen zwischen den unterschiedlichen Gruppen der Demokratischen Linken."
             contact:
                 website: "http://florakreis.blogsport.de/"
+          - id: antira-ref
+            name: Antirassismus-Referat
+            active: "true"
+            logo: "/img/groups/antira/logo.png"
+            image: "/img/groups/antira/image.jpg"
+            description: "Das „Antirassismus-Referat – Referat gegen Rassismus und Menschenfeindlichkeit“ ist Teil der Studierendenvertretung der JMU Würzburg. Ihr Ziel ist es, ein diskriminierungskritisches Bewusstsein zu schaffen und BI_PoC zu empowern. Das Antira-Referat beteiligt sich an den Würzburger Black Lives Matter Bewegungen und schafft u.a. über Social Media Awaraness für Antirassismus."
+            contact:
+                facebook: "https://facebook.com/pg/Antirawuerzburg/"
+                instagram: "https://instagram.com/empowerment_awareness_change/"
           - id: akr
             name: AK Rassismus
             active: "false"
