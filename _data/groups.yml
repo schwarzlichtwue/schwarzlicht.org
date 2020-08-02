@@ -198,14 +198,15 @@
           - id: sozkuz
             name: Initiative Soziokulturelles Zentrum
             active: "true"
-            image: "/img/groups/sozkuz/image.jpg"
             description: "Die Initiative SozKuz ist auf der Suche nach unabhängigem, dringend benötigtem, zentral gelegenem, großflächigen Raum, um diesen Vereinen, Initiativen und Privatpersonen unentgeltlich zur Verfügung zu stellen, die dies bei horrenden Mieten und mangelnden Angeboten nicht mehr finden. Sie wollen einen Ort des sozialen und kulturellen Austausches schaffen, in dem auch Kunst ihren Platz findet."
             contact:
                 mail: "mailto:soziokulturelles-zentrum@riseup.net"
                 website: "https://sozkuzwue.wordpress.com/"
           - id: akj
-            name: Arbeitskreis Kritische Jurist*innen
+            name: Arbeitskreis Kritischer Jurist*innen
             active: "true"
+            logo: "/img/groups/akj/logo.png"
+            image: "/img/groups/akj/image.jpg"
             description: "Der AKJ-Würzburg ist ein Zusammenschluss von Jurastudierenden, Referendar*innen und Mitarbeitenden der Universität sowie von anderen Interessierten, die ihr Wissen in einen gesellschaftlichen Rahmen stellen und ihre juristischen Fähigkeiten nutzen wollen, um mit diesen linkspolitisch zu arbeiten."
             contact:
                 mail: "mailto:akj-wue@riseup.net"
