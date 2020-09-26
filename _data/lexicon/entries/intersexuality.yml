@@ -1,6 +1,8 @@
 id: intersexuality
 name: Intersexualität
 topic: gender
+alternatives:
+    - Inter
 description: |
   <p>Biologisches Geschlecht (sex), z.B. Geschlechtsorgane oder Chromosomen,
   sind nicht „eindeutig“ im binären Geschlechtssystem einzuordnen.</p>
