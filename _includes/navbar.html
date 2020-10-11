@@ -2,7 +2,7 @@
 <nav class="sl-red">
 	<div class="nav-wrapper">
 		<a href="/" class="logo left" style="break-word: keep-all; hyphens: none;">
-				<img class="hide-on-med-and-down" style="height: 2.1rem;"
+				<img class="hide-on-small-only" style="height: 2.1rem;"
 					src="/img/logo-white.svg">
 					SCHWARZLICHT
 		</a>
@@ -10,8 +10,22 @@
 		<ul class="right hide-on-med-and-down">
 			<li>
 				<a style="margin-right: 1em;" class="logo-link dropdown-trigger" href="#!"
-					data-target="dropdown">
-					Menu
+					data-target="beitraege">
+					Beiträge
+					<i class="material-icons right">arrow_drop_down</i>
+				</a>
+			</li>
+			<li>
+				<a style="margin-right: 1em;" class="logo-link dropdown-trigger" href="#!"
+					data-target="info">
+					Information
+					<i class="material-icons right">arrow_drop_down</i>
+				</a>
+			</li>
+			<li>
+				<a style="margin-right: 1em;" class="logo-link dropdown-trigger" href="#!"
+					data-target="uebersicht">
+					Übersichten
 					<i class="material-icons right">arrow_drop_down</i>
 				</a>
 			</li>
@@ -24,6 +38,42 @@
 	{% include sidenav-menu.html %}
 </ul>
 
-<ul class="dropdown-content" id="dropdown">
-	{% include menu.html %}
+<ul class="dropdown-content" id="beitraege">
+	<li>
+		<a class="dropdown-link" href="/#timeline">Timeline</a>
+	</li>
+	<li>
+		<a class="dropdown-link" href="/t/">Themen</a>
+	</li>
+	<li>
+		<a class="dropdown-link" href="/other/documents/">Dokumente</a>
+	</li>
+	<li>
+		<a class="dropdown-link" href="/archive/">Archiv</a>
+	</li>
+	<li>
+		<a class="dropdown-link"
+			href="/other/documents/linksunten/">Linksunten-Archiv</a>
+	</li>
+</ul>
+
+<ul class="dropdown-content" id="info">
+	<li>
+		<a class="dropdown-link" href="/info/">Information</a>
+	</li>
+	<li>
+		<a class="dropdown-link" href="/contact/">Kontakt</a>
+	</li>
+</ul>
+
+<ul class="dropdown-content" id="uebersicht">
+	<li>
+		<a class="dropdown-link" href="/other/groups/">Gruppen</a>
+	</li>
+	<li>
+		<a class="dropdown-link" href="/other/calendar/">Kalender</a>
+	</li>
+	<li>
+		<a class="dropdown-link" href="/other/lexicon/">Lexikon</a>
+	</li>
 </ul>
