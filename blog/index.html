@@ -1,0 +1,24 @@
+---
+layout: default
+pagination:
+        enabled: false
+        category: twitter
+        permalink: '/blog/pages/:num/'
+title: 'Blog'
+---
+<div id="content" class="posts container">
+	<div class="row">
+		<h1 id="timeline">Blog-Posts</h1>
+		<div class="center">
+			{% include paginator.html %}
+		</div>
+	</div>
+	<div class="row">
+		{% for post in paginator.posts %}
+		{% include post.html %}
+		{% endfor %}
+	</div>
+	<div class="center">
+		{% include paginator.html %}
+	</div>
+</div>

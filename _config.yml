@@ -40,7 +40,7 @@ pagination:
         per_page: 16 # used to be 'paginate'
         sort_reverse: true
         title: ':title | :num/:max'
-        permalink: '/pages/:num/'
+        #        permalink: '/pages/:num/'
 
 permalink: /p/:year-:month-:day-:title.html
 

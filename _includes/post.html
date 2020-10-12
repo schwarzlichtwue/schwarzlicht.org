@@ -10,6 +10,7 @@
 			<br>
 			{% endif %}
 			<span class="post-date">{{ post.date | date: "%d.%m.%Y, %H:%M" }}</span>
+			{% include post_type.html type="twitter" %}
 		</div>
 	</header>
 	<div class="row post-content">

@@ -11,7 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	var collapse = document.querySelectorAll('.collapsible');
 	collapseinstances = M.Collapsible.init(collapse, {accordion: false});
 	var dropdown = document.querySelectorAll('.dropdown-trigger');
-	dropdowninstances = M.Dropdown.init(dropdown, {hover: true});
+	dropdowninstances = M.Dropdown.init(dropdown, {hover: false, alignment: 'left'});
+
+	var tabinstances = document.querySelectorAll('.tabs');
+	var instance = M.Tabs.init(tabinstances, {swipeable: true});
 
 
 	let materializeLoadedEvent = new CustomEvent("materializeLoaded");

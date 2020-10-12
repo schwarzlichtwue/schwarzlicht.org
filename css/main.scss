@@ -1,3 +1,5 @@
+---
+---
 html { font-size: 100%; }
 
 main {
@@ -58,15 +60,16 @@ footer {
 article {
 	hyphens: auto;
 	font-family: 'Merriweather', serif;
+
+	p {
+		line-height: 2;
+	}
+
+	a {
+		word-break: break-all;
+	}
 }
 
-article p {
-	line-height: 2;
-}
-
-article a {
-	word-break: break-all;
-}
 
 blockquote p {
 	font-size: 0.9em !important;
@@ -180,6 +183,14 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.post-type {
+	color: #777;
+	font-size: 0.7em;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
 .post-locations {
 	color: #777;
 	font-size: 0.9em;
@@ -206,6 +217,17 @@ p {
 .tag {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
+}
+
+.overview {
+	.content {
+		margin: 1rem;
+	}
+	margin: auto;
+	background: #7a001f;
+	color: #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 main a {
@@ -276,4 +298,9 @@ h3 a:hover {
 }
 .pagination li.active {
  background-color:#7a001f
+}
+
+.tabs a {
+	color: #7a001f;
+	text-decoration: none;
 }
