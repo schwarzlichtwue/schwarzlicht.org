@@ -70,6 +70,11 @@ article {
 	}
 }
 
+	.read-more {
+		font-family: 'Open Sans', sans-serif !important;
+		font-weight: bolder;
+		color: #7a001f;
+		}
 
 blockquote p {
 	font-size: 0.9em !important;
@@ -183,12 +188,27 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.post-meta-divider {
+	color: #777;
+	font-size: 0.9em;
+	font-family: 'Open Sans', sans-serif;
+/*	font-style: italic;*/
+	text-transform: uppercase;
+}
+
 .post-type {
 	color: #777;
-	font-size: 0.7em;
+	font-size: 0.9em;
 	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
-	text-transform: lowercase;
+/*	font-style: italic;*/
+	text-transform: uppercase;
+}
+
+.post-counter {
+	color: #777;
+	font-size: 0.9em;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
 }
 
 .post-locations {
@@ -238,6 +258,7 @@ p {
 main a {
 	text-decoration: underline;
 }
+
 
 a {
 	color: #7a001f;

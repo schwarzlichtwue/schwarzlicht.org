@@ -6,13 +6,13 @@ title: Archiv
 	<h1>Beiträge vom {{ page.date | date: "%-d.%-m.%Y" }}</h1>
 	{% for post in page.posts %}
 	{% if post.categories contains "twitter" %}
-	{% include post.html %}
+	{% include teaser.html %}
 	{% endif %}
 	{% if post.categories contains "document" %}
 	{% include document.html %}
 	{% endif %}
 	{% if post.categories contains "linksunten" %}
-	{% include linksunten.html %}
+	{% include linksunten-teaser.html %}
 	{% endif %}
 	{% endfor %}
 </div>

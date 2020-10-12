@@ -1,0 +1,31 @@
+<article class="post">
+	<header class="post-header">
+		<div class="post-meta">
+			{% include post-meta.html type="linksunten" %}
+		</div>
+	</header>
+	<div class="row">
+
+		<div class="col s12 m8 l10">
+			<div>
+			{{ post.teaser }}
+			</div>
+			<div>
+			<a class="read-more" href="{{post.url}}">Mehr Lesen</a>
+			</div>
+		</div>
+
+		{% if post.media.size > 0 %}
+		<div class="col s6 m4 l2 ">
+			{% assign post_media = post.media | first %}
+			{% include media.html %}
+		</div>
+		{% endif %}
+	</div>
+	<div class="right">
+		<a title="Read More" style="margin:5px" href="{{post.url}}"><i
+				class="fas fa-plus-circle"></i></a>
+	</div>
+</article>
+<div class="divider">
+</div>

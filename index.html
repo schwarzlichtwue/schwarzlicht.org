@@ -14,18 +14,6 @@ title: ''
 		{% include overview.html %}
 	</div>
 	<div class="row">
-		<h1 id="demosphere">Démosphère</h1>
-		<p>
-		Der <a href="https://wuerzburg.demosphere.net">Démosphère-Kalender</a>
-		informiert über alle kommenden Veranstaltungen in Würzburg. Denkt daran,
-		eure eigenen Veranstaltungen <a
-		href="https://wuerzburg.demosphere.net/publish">einzureichen</a>!
-		</p>
-		<div>
-		{% include demosphere.html %}
-		</div>
-	</div>
-	<div class="row">
 		<h1 id="timeline">Timeline</h1>
 		<div class="center">
 			{% include paginator.html %}
@@ -33,7 +21,7 @@ title: ''
 	</div>
 	<div class="row">
 		{% for post in paginator.posts %}
-		{% include post.html %}
+		{% include teaser.html %}
 		{% endfor %}
 	</div>
 	<div class="center">
