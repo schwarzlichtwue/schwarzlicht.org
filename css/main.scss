@@ -220,8 +220,13 @@ p {
 }
 
 .overview {
-	.content {
+	.element {
 		margin: 1rem;
+		.content {
+			border-radius: 10px;
+			background: #ffffff;
+			color: #7a001f;
+		}
 	}
 	margin: auto;
 	background: #7a001f;
