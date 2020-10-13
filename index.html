@@ -5,16 +5,18 @@
 layout: default
 pagination:
         enabled: true
-        category: twitter
-        permalink: '/pages/:num/'
+        category: blog
+        permalink: '/pages/blog-:num.html'
+        indexpage: 'index'
 title: ''
 ---
 <div id="content" class="posts container">
 	<div class="section" id="overview">
+		<h1 id="uerbersicht">Übersicht</h1>
 		{% include overview.html %}
 	</div>
 	<div class="row">
-		<h1 id="timeline">Timeline</h1>
+		<h1 id="blog">Blog-Posts</h1>
 		<div class="center">
 			{% include paginator.html %}
 		</div>
@@ -22,6 +24,8 @@ title: ''
 	<div class="row">
 		{% for post in paginator.posts %}
 		{% include teaser.html %}
+		<div class="divider">
+		</div>
 		{% endfor %}
 	</div>
 	<div class="center">

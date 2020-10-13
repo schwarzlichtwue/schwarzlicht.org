@@ -240,19 +240,16 @@ p {
 }
 
 .overview {
-	.element {
-		margin: 1rem;
-		.content {
-			border-radius: 10px;
-			background: #ffffff;
-			color: #7a001f;
-		}
+	.content {
+		border-radius: 10px;
+		background: #ffffff;
+		color: #7a001f;
 	}
 	margin: auto;
-	background: #7a001f;
-	color: #ffffff;
 	border-radius: 10px;
+	border: 1px solid #7a001f;
 	overflow: hidden;
+	margin-bottom: 1rem;
 }
 
 main a {

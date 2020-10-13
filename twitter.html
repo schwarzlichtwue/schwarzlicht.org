@@ -1,0 +1,27 @@
+---
+layout: default
+pagination:
+        enabled: true
+        category: twitter
+        permalink: '/pages/twitter-:num.html'
+        indexpage: 'twitter/index'
+title: 'Twitter Threads'
+---
+<div id="content" class="posts container">
+	<div class="row">
+		<h1 id="timeline">Twitter-Timeline</h1>
+		<div class="center">
+			{% include paginator.html %}
+		</div>
+	</div>
+	<div class="row">
+		{% for post in paginator.posts %}
+		{% include teaser.html %}
+		<div class="divider">
+		</div>
+		{% endfor %}
+	</div>
+	<div class="center">
+		{% include paginator.html %}
+	</div>
+</div>
