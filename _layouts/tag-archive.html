@@ -6,11 +6,11 @@ layout: sub
 	{% for post in page.posts %}
 	{% if post.categories contains "twitter" %}
 	{% include teaser.html %}
-	{% elif post.categories contains "document" %}
+	{% elsif post.categories contains "document" %}
 	{% include document.html %}
-	{% elif post.categories contains "linksunten" %}
+	{% elsif post.categories contains "linksunten" %}
 	{% include linksunten-teaser.html %}
-	{% elif post.categories contains "blog" %}
+	{% elsif post.categories contains "blog" %}
 	{% include blog-teaser.html %}
 	{% endif %}
 	<div class="divider"></div>
