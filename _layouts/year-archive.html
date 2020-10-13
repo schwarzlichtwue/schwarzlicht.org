@@ -7,12 +7,13 @@ title: Archiv
 	{% for post in page.posts %}
 	{% if post.categories contains "twitter" %}
 	{% include teaser.html %}
-	{% endif %}
-	{% if post.categories contains "document" %}
+	{% elif post.categories contains "document" %}
 	{% include document.html %}
-	{% endif %}
-	{% if post.categories contains "linksunten" %}
+	{% elif post.categories contains "linksunten" %}
 	{% include linksunten-teaser.html %}
+	{% elif post.categories contains "blog" %}
+	{% include blog-teaser.html %}
 	{% endif %}
+	<div class="divider"></div>
 	{% endfor %}
 </div>

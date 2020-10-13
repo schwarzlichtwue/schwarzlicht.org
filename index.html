@@ -23,9 +23,8 @@ title: ''
 	</div>
 	<div class="row">
 		{% for post in paginator.posts %}
-		{% include teaser.html %}
-		<div class="divider">
-		</div>
+		{% include blog-teaser.html %}
+		<div class="divider"></div>
 		{% endfor %}
 	</div>
 	<div class="center">
