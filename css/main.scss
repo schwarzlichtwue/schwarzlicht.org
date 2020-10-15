@@ -93,9 +93,6 @@ blockquote p {
 .collapsible-header {
 	font-weight: bolder;
 }
-.collection-item a {
-	text-decoration: none !important;
-}
 
 .card-title {
 	font-weight: bolder;
@@ -231,12 +228,10 @@ p {
 .location {
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
-	text-decoration: none;
 }
 
 .tag {
 	font-family: 'Open Sans', sans-serif;
-	text-decoration: none;
 }
 
 .overview {
@@ -252,14 +247,9 @@ p {
 	margin-bottom: 1rem;
 }
 
-main a {
-	text-decoration: underline;
-}
-
 
 a {
 	color: #7a001f;
-	text-decoration: none;
 }
 
 a:hover {
@@ -272,26 +262,6 @@ a:visited {
 
 h1 a {
 	color: #333;
-	text-decoration: none !important;
-}
-h1 a:hover {
-	text-decoration: underline !important;
-}
-
-h2 a {
-	color: #333;
-	text-decoration: none !important;
-}
-h2 a:hover {
-	text-decoration: underline !important;
-}
-
-h3 a {
-	color: #333;
-	text-decoration: none !important;
-}
-h3 a:hover {
-	text-decoration: underline !important;
 }
 
 
@@ -315,7 +285,6 @@ h3 a:hover {
  color:#444;
  display:inline-block;
  font-size:1.2rem;
- text-decoration: none;
  padding:0 10px;
  line-height:30px
 }
@@ -325,5 +294,22 @@ h3 a:hover {
 
 .tabs a {
 	color: #7a001f;
-	text-decoration: none;
 }
+
+/* the following is needed if sidenav is fixed */
+.site-header, main, footer {
+	padding-left: 300px;
+}
+.brand-logo {
+	padding-right: 300px!important;
+}
+
+@media only screen and (max-width : 992px) {
+	.site-header, main, footer {
+		padding-left: 0;
+	}
+	.brand-logo {
+		padding-right: 0px!important;
+	}
+}
+/* ------------------------------------------- */

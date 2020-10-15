@@ -6,28 +6,30 @@ layout: default
 pagination:
         enabled: true
         category: blog
-        permalink: '/pages/blog-:num.html'
+        permalink: '/pages/blog/:num.html'
         indexpage: 'index'
 title: ''
 ---
-<div id="content" class="posts container">
-	<div class="section" id="overview">
-		<h1 id="uerbersicht">Übersicht</h1>
-		{% include overview.html %}
-	</div>
-	<div class="row">
-		<h1 id="blog">Blog-Posts</h1>
+<div class="container">
+	<div id="content" class="posts section">
+		<div class="row">
+			<div class="center">
+				{% include paginator.html %}
+			</div>
+		</div>
+		<div class="row">
+			{% for post in paginator.posts %}
+			{% include blog-teaser.html %}
+			<div class="divider"></div>
+			{% endfor %}
+		</div>
 		<div class="center">
 			{% include paginator.html %}
 		</div>
 	</div>
-	<div class="row">
-		{% for post in paginator.posts %}
-		{% include blog-teaser.html %}
-		<div class="divider"></div>
-		{% endfor %}
-	</div>
-	<div class="center">
-		{% include paginator.html %}
-	</div>
+
+		<!-- <div class="col s12 offset-l1 l2" id="overview">
+			<h1 id="uerbersicht">Übersicht</h1>
+			{% include overview.html %}
+		</div>-->
 </div>

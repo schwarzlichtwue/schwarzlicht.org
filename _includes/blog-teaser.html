@@ -1,11 +1,12 @@
 <article class="post">
-	<header class="post-header">
-		<div class="post-meta">
-			{% include post-meta.html type="blog" %}
-		</div>
-	</header>
 	<div class="row">
-
+		<header class="post-header">
+			<div class="col s12 post-meta">
+				{% include post-meta.html type="blog" teaser="" %}
+			</div>
+		</header>
+	</div>
+	<div class="row">
 		<div class="col s12 m8 l10">
 			<div>
 			{{ post.teaser }}

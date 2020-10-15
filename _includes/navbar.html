@@ -1,13 +1,15 @@
 <div class="navbar-fixed">
 <nav class="sl-red">
 	<div class="nav-wrapper">
-		<a href="/" class="logo left" style="break-word: keep-all; hyphens: none;">
+		<a href="#" data-target="sidenav" class="sidenav-trigger logo-link">
+			<i class="material-icons">menu</i>
+		</a>
+		<a href="/" class="brand-logo center" style="break-word: keep-all; hyphens: none;">
 					SCHWARZLICHT
 				<img class="hide-on-small-only" style="height: 2.1rem;"
 					src="/img/logo-white.svg">
 		</a>
-		<a href="#" data-target="sidenav" class="sidenav-trigger logo-link"><i class="material-icons">menu</i></a>
-		<ul class="right hide-on-med-and-down">
+<!--		<ul class="right hide-on-med-and-down">
 			<li>
 				<a style="margin-right: 1em;" class="logo-link dropdown-trigger" href="#!"
 					data-target="beitraege">
@@ -29,12 +31,12 @@
 					<i class="material-icons right">arrow_drop_down</i>
 				</a>
 			</li>
-		</ul>
+		</ul> -->
 	</div>
 </nav>
 </div>
 
-<ul class="sidenav" id="sidenav">
+<ul class="sidenav sidenav-fixed" id="sidenav">
 	{% include sidenav-menu.html %}
 </ul>
 
