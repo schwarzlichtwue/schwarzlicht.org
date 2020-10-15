@@ -1,12 +1,12 @@
 ---
-title: Archiv
+title: Twitter-Archiv
 layout: sub
 ---
 
 <!-- https://zpbappi.com/jekyll-with-tags-archive-and-comments-in-github-pages/ -->
 {% assign cYear = "" %}
 {% assign cMonth = "" %}
-{% assign posts = site.posts | where: "categories", "blog"  | sort: 'date' | reverse %}
+{% assign posts = site.posts | where: "categories", "twitter"  | sort: 'date' | reverse %}
 {% assign first = posts | first %}
 {% assign cMonthName = "" %}
 {% assign cMonthLink = "" %}
@@ -17,7 +17,7 @@ layout: sub
 	<div class="row">
 		<h1>Archiv</h1>
 		<p>
-			Blogbeiträge von Schwarzlicht Würzburg nach Jahr und Monat:
+			Schwarzlicht Würzburg hat in den folgenden Jahren/Monaten getwittert:
 		</p>
 	</div>
 	<div class="row">
