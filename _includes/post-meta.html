@@ -26,7 +26,13 @@
 			</span>
 			<span class="post-meta-divider">|</span>
 			{% endif %}
-			<span class="post-date">{{ post.date | date: "%d.%m.%Y, %H:%M" }}</span>
+			<span class="post-date">
+				{% if include.type == "twitter" %}
+					{{ post.date | date: "%d.%m.%Y, %H:%M" }}
+				{% else %}
+					{{ post.date | date: "%d.%m.%Y" }}
+				{% endif %}
+			</span>
 			<span class="post-meta-divider">|</span>
 			<span class="post-type">
 				{% if include.type == "twitter" %}
