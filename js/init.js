@@ -29,15 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
  });
 
 let init_autocomplete = function () {
-    mapping = {
-		"Kontakt": "/contact/",
-		"Gruppen": "/other/groups/",
-		"Demosphere": "/other/demosphere/",
-		"Dokumente": "/other/documents/",
-		"Kalender": "/other/calendar/",
-		"Linksunten": "/other/linksunten/",
-		"Archiv": "/archive/",
-    };
+    mapping = search_items;
 
 	let null_mapping = function () {
         results = {};
