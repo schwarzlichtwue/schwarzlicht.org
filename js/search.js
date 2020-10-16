@@ -1,6 +1,6 @@
 ---
 ---
-let search_items = {
+var search_items = {
 "Blog": "/",
 "Kontakt": "/contact/",
 "Gruppen": "/other/groups/",
@@ -11,9 +11,10 @@ let search_items = {
 "Linksunten": "/other/linksunten/",
 "Archiv": "/archive/",
 {% for post in site.posts %}
-{%- if post.categories contains "twitter" -%}
+{% if post.categories contains "twitter" %}
+"{{ post.teaser | markdownify | slugify | strip_newlines | escape }}": "{{ post.url }}",
 {%- else -%}
-"{{ post.title }}": "{{ post.url }}",
-{%- endif -%}
-{%- endfor -%}
+"{{ post.title | escape }}": "{{ post.url }}",
+{% endif %}
+{% endfor %}
 };
