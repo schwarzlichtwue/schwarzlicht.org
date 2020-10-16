@@ -541,7 +541,7 @@
 
 - id: "a"
   name: "Frauenkampftag"
-  description: "Anlässlich des Frauenkampftags 2020 veröffentlichten wir zwei Texte, welche sich mit <a href=/p/2020-03-06-1235897000928964608.html>Feminismus und Kapitalismus</a> und <a href=/p/2020-03-07-1236231654416543744.html>Rollenbildern</a> befassen"
+  description: "Anlässlich des Frauenkampftags 2020 veröffentlichten wir zwei Texte, welche sich mit <a href=/p/2020-03-06-1235897000928964608.html>Feminismus und Kapitalismus</a> und <a href=/p/2020-03-07-1236231654416543744.html>Rollenbildern</a> befassen. Auch MissMutig <a href=/p/2020-03-08-1236644685986377730.html>veröffentlichte zu diesem Tag einen Text</a>."
   category: "feminism"
   singular: false
   date: "0001-03-08"
@@ -803,7 +803,7 @@
   date: "1994-04-06"
 - id: "c"
   name: "†Halit Yozgat"
-  description: ""
+  description: "Halit Yozgat wurde vom NSU ermordet. <a href=/p/2020-04-06-1247161102556782593.html>Wir berichteten zu seinem 14. Todestag</a>"
   category: "death"
   singular: false
   date: "2006-04-06"
@@ -816,7 +816,7 @@
   date: "1836-04-07"
 - id: "b"
   name: "*Gustav Landauer"
-  description: ""
+  description: "<a href=/p/2020-04-07-1247432383135207425.html>Unser Text zu Gustav Landauer</a>, einem Hauptakteur der Räterepublik."
   category: "birthday"
   singular: false
   date: "1870-04-07"
@@ -842,7 +842,7 @@
   date: "1919-04-09"
 - id: "b"
   name: "† Georg Elser, †Hans von Dohnanyi, † Dietrich Bonhoeffer"
-  description: ""
+  description: "Zum Tod von Georg Elser haben wir einen <a href=/p/2020-04-09-1248272151242846214.html>Artikel der Antifa Würzburg</a> geteilt."
   category: "death"
   singular: false
   date: "1945-04-09"
@@ -996,7 +996,7 @@
   date: "1872-04-19"
 - id: "b"
   name: "Aufstand im Warschauer Ghetto"
-  description: ""
+  description: "<a href=/p/2020-04-19-1251830947282124803.html>Unser Artikel zum Warschauer Aufstand</a>."
   category: "holocaust"
   singular: false
   date: "1943-04-19"
@@ -1006,6 +1006,12 @@
   category: "event"
   singular: false
   date: "1972-04-19"
+- id: "d"
+  name: "Schwur von Buchenwald"
+  description: "Die Überlebenden des KZ Buchenwald schworen sich die Vernichtung des Nazismus mit seinen Wurzeln. <a href=/p/2020-04-19-1251953929925070854.html>Unser Artikel zum Schwur von Buchenwald</a>."
+  category: "holocaust"
+  singular: false
+  date: "1945-04-19"
 
 - id: "a"
   name: "*Adolf Hitler"
@@ -1203,7 +1209,7 @@
 
 - id: "a"
   name: "Tag der Pressefreiheit"
-  description: ""
+  description: "<a href=/p/2020-05-03-1257004275911327744.html>Unser Text</a> zum Tag der Pressefreiheit."
   category: "day"
   singular: false
   date: "0001-05-03"
@@ -1254,7 +1260,7 @@
   date: "1943-05-08"
 - id: "b"
   name: "Tag der Befreiung"
-  description: ""
+  description: "Am Tag der Befreiung 2020 <a href=/p/2020-05-09-1259029952546160640.html>demonstrierte das Antira-Referat gegen Rassismus und Antisemitismus</a>."
   category: "fascism"
   singular: false
   date: "1945-05-08"
@@ -1319,7 +1325,7 @@
 
 - id: "a"
   name: "Ende Aufstand im Warschauer Ghetto"
-  description: ""
+  description: "<a href=/p/2020-04-19-1251830947282124803.html>Unser Artikel zum Warschauer Aufstand</a>."
   category: "holocaust"
   singular: false
   date: "1943-05-16"
@@ -1744,7 +1750,7 @@
 
 - id: "a"
   name: "Beginn Stonewall Riots"
-  description: ""
+  description: "Anlässlich der Stonewall Riots: <a href=/p/2020-06-28-1277311454698516480.html>Unser Appell an die Queere Community</a>."
   category: "feminism"
   singular: false
   date: "1969-06-28"
@@ -2375,7 +2381,7 @@
   date: "1632-08-29"
 - id: "b"
   name: "†Habil Kılıç"
-  description: ""
+  description: "Habil Kılıç wurde vom NSU ermordet. <a href=/p/2020-08-29-1299605107240316930.html>Wir berichteten zu seinem 19. Todestag</a>"
   category: "death"
   singular: false
   date: "2001-08-29"
@@ -2396,7 +2402,7 @@
 # 09
 - id: "a"
   name: "Aktion t4 (NS-Euthanasieprogramm)"
-  description: ""
+  description: "Der Obergutachter der Aktion t4, Werner Heyde, war Chef eines Würzburger Außenlagers, wie wir <a href=/p/2020-04-15-1250425014068731904.html>berichteten</a>."
   category: "holocaust"
   singular: false
   date: "0001-09-01"
@@ -2412,6 +2418,12 @@
   category: "feminism"
   singular: false
   date: "1969-09-01"
+- id: "d"
+  name: "Antikriegstag"
+  description: "<a href=/p/2020-09-01-1300740911509446662.html>Unser Bericht</a> zum Antikriegstag."
+  category: "war"
+  singular: false
+  date: "0001-09-01"
 
 - id: "a"
   name: "Gründung SDS"
@@ -2475,7 +2487,7 @@
   date: "1976-09-09"
 - id: "b"
   name: "†Enver Şimşek"
-  description: ""
+  description: "Enver Şimşek wurde vom NSU ermordet. <a href=/p/2020-09-09-1303568995392643073.html>Wir berichteten zu seinem 20. Todestag</a>"
   category: "death"
   singular: false
   date: "2000-09-09"
@@ -2768,7 +2780,7 @@
   date: "0001-10-02"
 - id: "b"
   name: "„Vernichtungsbefehl“ Herero"
-  description: "Generalleutnant Lothar von Trotha befiehlt, alle Herero aus dem Land zu treiben. In Folge dessen kommt es zum Verdursten, Kriegshandlungen und Konzentrationslagerinternierung. Nur 20.000 Herero überleben den Genozid."
+  description: "Generalleutnant Lothar von Trotha befiehlt, alle Herero aus dem Land zu treiben. In Folge dessen kommt es zum Verdursten, Kriegshandlungen und Konzentrationslagerinternierung. Nur 20.000 Herero überleben den Genozid. <a href=/p/2020-10-02-1311979083144859648.html>Unser Artikel</a>."
   category: "genocide"
   singular: false
   date: "1904-10-02"
@@ -2839,7 +2851,7 @@
   date: "1924-10-09"
 - id: "c"
   name: "Beginn „Operation Friedensquelle“"
-  description: ""
+  description: "Fünf Monate nach Beginn dieser türkischen Militäroffensive veröffentlichten wir einen <a href=/p/2020-03-09-1237095442338512898.html> einschätzenden Bericht</a>."
   category: "war"
   singular: false
   date: "2019-10-09"
@@ -3099,7 +3111,7 @@
   date: "1918-11-09"
 - id: "b"
   name: "Reichspogromnacht"
-  description: ""
+  description: "<a href=/p/2019-11-10-1193539406377996289.html>Unser Artikel</a> zur Reichspogromnacht."
   category: "holocaust"
   singular: false
   date: "1938-11-09"
@@ -3125,7 +3137,7 @@
   date: "1918-11-11"
 
 - id: "a"
-  name: "Frauenwahlrecht D"
+  name: "Frauenwahlrecht Deutschland"
   description: ""
   category: "feminism"
   singular: false
@@ -3192,8 +3204,8 @@
 
 - id: "a"
   name: "Transgender Day of Remembrance"
-  description: "MissMutig und Antifa organisierten im Jahr 2019 ein <a href=/p/2019-11-21-1197591760333082624.html>Gedenken</a>"
-  category: "day"
+  description: "MissMutig und Antifa organisierten im Jahr 2019 ein <a href=/p/2019-11-21-1197591760333082624.html>Gedenken</a>. <a href=/p/2019-11-20-1197039883426156545.html>Unser Text</a> zu diesem Tag."
+  category: "feminism"
   singular: false
   date: "0001-11-20"
 - id: "b"
@@ -3243,7 +3255,7 @@
 
 - id: "a"
   name: "Tag der Beseitigung von Gewalt gegen Frauen"
-  description: "Um auf dieses Thema aufmerksam zu machen, <a href=/p/2020-04-16-1250736292066967560.html>veröffentlichen</a> wir immer wieder Artikel."
+  description: "Um auf dieses Thema aufmerksam zu machen, <a href=/p/2020-04-16-1250736292066967560.html>veröffentlichen</a> wir einen Artikel."
   category: "day"
   singular: false
   date: "0001-11-25"
@@ -3342,7 +3354,7 @@
 
 - id: "a"
   name: "Tag der Menschenrechte"
-  description: ""
+  description: "Zu diesem Tag veranstaltete <a href=/p/2019-12-10-1204520326887022593.html>Mehr als 16a</a> eine lange Lesenacht."
   category: "day"
   singular: false
   date: "0001-12-10"
@@ -3411,6 +3423,12 @@
   category: "fascism"
   singular: false
   date: "1942-12-18"
+- id: "d"
+  name: "Konversionstherapieverbot"
+  description: "An diesem Tag beschloss das Bundeskabinett das Verbot von Konversionstherapien für Minderjährige ab 2020. <a href=/p/2020-03-26-1243101871897825280.html>Wir berichteten</a>."
+  category: "feminism"
+  singular: false
+  date: "2019-12-18"
 
 - id: "a"
   name: "Gedenken an die Opfer des Völkermordes an Sint*ezze und Romn*ja"
