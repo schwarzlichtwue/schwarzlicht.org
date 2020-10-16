@@ -11,10 +11,8 @@ var search_items = {
 "Linksunten": "/other/linksunten/",
 "Archiv": "/archive/",
 {% for post in site.posts %}
-{% if post.categories contains "twitter" %}
-"{{ post.teaser | markdownify | slugify | strip_newlines | escape }}": "{{ post.url }}",
-{%- else -%}
+{% unless post.categories contains "twitter" %}
 "{{ post.title | escape }}": "{{ post.url }}",
-{% endif %}
+{% endunless %}
 {% endfor %}
 };
