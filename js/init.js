@@ -50,3 +50,9 @@ let init_autocomplete = function () {
 		data: null_mapping()
 	});
 }
+
+let open_materialboxed = function (id_) {
+	let elem = document.querySelector(id_);
+	var instance = M.Materialbox.getInstance(elem);
+	instance.open();
+}
