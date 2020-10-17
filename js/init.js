@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	tabinstances = M.Tabs.init(tabinstances, {swipeable: true});
 
 
-/*    var scrollspies = document.querySelectorAll('.scrollspy');
-    scrollspyinstances = M.ScrollSpy.init(scrollspies, {});*/
+    var scrollspies = document.querySelectorAll('.scrollspy');
+    scrollspyinstances = M.ScrollSpy.init(scrollspies, {});
 
     init_autocomplete();
 
