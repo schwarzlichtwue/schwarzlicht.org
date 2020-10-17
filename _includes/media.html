@@ -4,6 +4,6 @@
 		 data-caption="{{post_media.desc}}"
 		 alt="{{post_media.desc}}"
 		/>
-	{% if post_media.desc %}
+	{% if include.nocaption != true and post_media.desc %}
 	<p class="center media-description">{{post_media.desc}}</p>
 	{% endif %}

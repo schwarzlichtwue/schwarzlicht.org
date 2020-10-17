@@ -1,23 +1,25 @@
-<div style="float: right;margin: 5px; margin-top:0.75em;margin-bottom:0.75em; width:{%- if include.fillm -%}{{ include.fillm }}{%- else -%}25%{%- endif -%}">
-<img style="" src="{{ include.file }}"
+	<img style="float: right;margin: 5px; margin-top:0.75em;margin-bottom:0.75em; width:{%- if include.fillm -%}{{ include.fillm }}{%- else -%}50%{%- endif -%}" src="{{ include.file }}"
 		 class="z-depth-2 responsive-img materialboxed center
 		 hide-on-small-only"
 		 data-caption="{{include.desc}}"
 		 alt="{{include.desc}}"
 		/>
-	{% if include.desc %}
-	<br/>
-	<p style="" class="center media-description hide-on-small-only">{{include.desc}}</p>
+	{% comment %}	{% if include.desc %}
+	<p style="float: right;margin: 5px; margin-top:0.75em;margin-bottom:0.75em;
+	width:{%- if include.fillm -%}{{ include.fillm }}{%- else -%}50%{%- endif
+	-%}" class="text-right media-description hide-on-small-only">{{include.desc}}</p>
 	{% endif %}
-</div>
-<div style="float: right;margin: 5px; margin-top:0.75em;margin-bottom:0.75em; width:{%- if include.fills -%}{{ include.fills }}{%- else -%}50%{%- endif -%}">
-	<img style="" src="{{ include.file }}"
+	{% endcomment %}
+	<img style="float: right;margin: 5px; margin-top:0.75em;margin-bottom:0.75em; width:{%- if include.fills -%}{{ include.fills }}{%- else -%}50%{%- endif -%}" src="{{ include.file }}"
 		 class="z-depth-2 responsive-img materialboxed center
 		 hide-on-med-and-up"
 		 data-caption="{{include.desc}}"
 		 alt="{{include.desc}}"
 		/>
+	{% comment %}
 	{% if include.desc %}
-	<p style="" class="center media-description hide-on-med-and-up">{{include.desc}}</p>
+	<p style="float: right;margin: 5px; margin-top:0.75em;margin-bottom:0.75em;
+	width:{%- if include.fills -%}{{ include.fills }}{%- else -%}50%{%- endif
+	-%}" class="media-description hide-on-med-and-up">{{include.desc}}</p>
 	{% endif %}
-</div>
+	{% endcomment %}

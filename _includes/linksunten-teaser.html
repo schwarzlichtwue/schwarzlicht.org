@@ -20,7 +20,7 @@
 		{% if post.media.size > 0 %}
 		<div class="col s6 m4 l2 ">
 			{% assign post_media = post.media | first %}
-			{% include media.html %}
+			{% include media.html nocaption=true %}
 		</div>
 		{% endif %}
 	</div>
