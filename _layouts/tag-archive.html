@@ -1,18 +1,83 @@
 ---
 layout: sub
 ---
+{% assign twitter    = false %}
+{% assign blog       = false %}
+{% assign document   = false %}
+{% assign linksunten = false %}
+
+{% for post in page.posts %}
+{% if post.categories contains "twitter" %}
+	{% assign twitter = true %}
+{% elsif post.categories contains "document" %}
+	{% assign document = true %}
+{% elsif post.categories contains "linksunten" %}
+	{% assign linksunten = true %}
+{% elsif post.categories contains "blog" %}
+	{% assign blog = true %}
+{% endif %}
+{% endfor %}
+
 <div id="content" class="container posts">
-	<h1>#{{ page.title }}</h1>
-	{% for post in page.posts %}
-	{% if post.categories contains "twitter" %}
-	{% include teaser.html %}
-	{% elsif post.categories contains "document" %}
-	{% include document.html %}
-	{% elsif post.categories contains "linksunten" %}
-	{% include linksunten-teaser.html %}
-	{% elsif post.categories contains "blog" %}
-	{% include blog-teaser.html %}
+	<div class="row">
+		<h1>#{{ page.title }}</h1>
+		<span><b>
+	{% if blog %}
+			<a href="#blog">Blog-Beiträge</a>
 	{% endif %}
-	<div class="divider"></div>
-	{% endfor %}
+	{% if document %}
+			<a href="#documents">Dokumente</a>
+	{% endif %}
+	{% if twitter %}
+			<a href="#twitter">Twitter-Threads</a>
+	{% endif %}
+	{% if linksunten %}
+			<a href="#linksunten">Linksunten</a>
+			{% endif %}</b>
+		</span>
+	</div>
+	{% if blog %}
+	<div id="blog" class="section">
+		<h2>Blog-Beiträge</h2>
+		{% for post in page.posts %}
+		{% if post.categories contains "blog" %}
+		{% include blog-teaser.html %}
+		<div class="divider"></div>
+		{% endif %}
+		{% endfor %}
+	</div>
+	{% endif %}
+	{% if document %}
+	<div id="documents" class="section">
+		<h2>Dokumente</h2>
+		{% for post in page.posts %}
+		{% if post.categories contains "document" %}
+		{% include document.html %}
+		<div class="divider"></div>
+		{% endif %}
+		{% endfor %}
+	</div>
+	{% endif %}
+	{% if twitter %}
+	<div id="twitter" class="section">
+		<h2>Twitter-Threads</h2>
+		{% for post in page.posts %}
+		{% if post.categories contains "twitter" %}
+		{% include teaser.html %}
+		<div class="divider"></div>
+		{% endif %}
+		{% endfor %}
+	</div>
+	{% endif %}
+	{% if linksunten %}
+	<div id="linksunten" class="section">
+		<h2>Linksunten</h2>
+		{% for post in page.posts %}
+		{% if post.categories contains "linksunten" %}
+		{% include linksunten-teaser.html %}
+		<div class="divider"></div>
+		{% endif %}
+		{% endfor %}
+	</div>
+	{% endif %}
 </div>

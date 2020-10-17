@@ -29,7 +29,7 @@ layout: sub
 			  {% assign month = post.date | date: '%Y-%m' %}
 			  {% if year != cYear %}
 			    {% if cYear != "" %}
-							<a href="{{cMonthLink | prepend: "/archive" | prepend: site.baseurl}}">{{cMonthName}}</a>
+							<a href="{{cMonthLink | prepend: "/archive" | prepend: site.baseurl}}#twitter">{{cMonthName}}</a>
 							({{count | minus: 1}})
 						</li>
 					</ul>
@@ -51,7 +51,7 @@ layout: sub
 		
 			  {% if month != cMonth %}
 			    {% if cMonth != "" %}
-						<a href="{{cMonthLink | prepend: "/archive" | prepend: site.baseurl}}">{{cMonthName}}</a>
+						<a href="{{cMonthLink | prepend: "/archive" | prepend: site.baseurl}}#twitter">{{cMonthName}}</a>
 						({{count | minus: 1}})
 					</li>
 					<li class="collection-item">
@@ -62,7 +62,7 @@ layout: sub
 			  {% assign cMonthName = post.date | date: '%B' %}
 			  {% assign cMonthLink = post.date | date: '/%Y-%m' %}
 			{% endfor %}
-						<a href="{{cMonthLink | prepend: "/archive" | prepend: site.baseurl}}">{{cMonthName}}</a> ({{count}})
+						<a href="{{cMonthLink | prepend: "/archive" | prepend: site.baseurl}}#twitter">{{cMonthName}}</a> ({{count}})
 					</li>
 				</ul>
 			</li>
