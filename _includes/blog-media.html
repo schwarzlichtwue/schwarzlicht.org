@@ -1,5 +1,5 @@
 	<img style="float: right;margin: 5px; margin-top:0.75em;margin-bottom:0.75em; width:{%- if include.fillm -%}{{ include.fillm }}{%- else -%}50%{%- endif -%}" src="{{ include.file }}"
-		 class="z-depth-2 responsive-img materialboxed center
+		 class="{% if include.noshadow %}{% else %}z-depth-2{% endif %} responsive-img materialboxed center
 		 hide-on-small-only"
 		 data-caption="{{include.desc}}"
 		 alt="{{include.desc}}"
@@ -11,7 +11,7 @@
 	{% endif %}
 	{% endcomment %}
 	<img style="float: right;margin: 5px; margin-top:0.75em;margin-bottom:0.75em; width:{%- if include.fills -%}{{ include.fills }}{%- else -%}50%{%- endif -%}" src="{{ include.file }}"
-		 class="z-depth-2 responsive-img materialboxed center
+		 class="{% if include.noshadow %}{% else %}z-depth-2{% endif %} responsive-img materialboxed center
 		 hide-on-med-and-up"
 		 data-caption="{{include.desc}}"
 		 alt="{{include.desc}}"
