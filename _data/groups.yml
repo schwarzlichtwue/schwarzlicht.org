@@ -124,6 +124,13 @@
                 facebook: "https://www.facebook.com/eatwellorganisation/"
                 website: "https://eatwellorganisation.wordpress.com/"
                 mail: "eatwellorganisation@gmail.com"
+          - id: gegengewalt
+            name: Gegen_Gewalt
+            active: "true"
+            description: "Das Gegen_Gewalt–Kollektiv will mit Bildungsarbeit und Aktionen wir Awareness (Bewusstsein) für die eigenen Privilegien und verinnerlichten Machtstrukturen schaffen. Darüber hinaus möchte das Kollektiv eine (anonyme) Anlaufstelle für Betroffene von Diskriminierung und Gewalt aufbauen und Unterstützung bei der Aufarbeitung anbieten."
+            logo: "/img/groups/gg/logo.png"
+            contact:
+                mail: "gegen_gewalt@riseup.net"
 - id: klimagerechtigkeit
   name: "Klimagerechtigkeit"
   groups:
