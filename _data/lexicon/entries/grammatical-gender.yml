@@ -3,7 +3,7 @@ name: Gendern
 topic: language
 description: |
   <p>Sprache ist der erste Schritt und Sprache beeinflusst Handlung und Denken. Das
-  generische Maskulinum behauptet, es würde Frauen und Enbys mitmeinen, doch
+  generische Maskulinum behauptet, es würde Frauen und nicht binäre Personen mitmeinen, doch
   Studien beweisen, dass sich hauptsächlich Männer angesprochen fühlen. Schon vor
   Jahren zeigten Studien: auf eine Stellenausschreibung, die nach m/w sucht,
   bewerben sich signifikant mehr Frauen als auf eine, die sich auf dem Generischen
@@ -15,8 +15,20 @@ description: |
   neutral ausdrücken, die „Lehrende“, „Studierende“, „Referierende“. Oft lässt
   sich auch einfach das Wort „Person“ anfügen, wie „malende Person“.  Üblich und
   universal anwendbar sind jedoch die Schreibweisen mit Gendersternchen (*) oder
-  Unterstrich (_), z.B. Schüler*innen und Lehrer_innen. Wir von „Schwarzlicht
-  Würzburg“ sind dazu übergegangen einen Doppelpunkt (:) zu verwenden. Nicht nur Nomen
+  Unterstrich (_), z.B. Schüler*innen und Lehrer_innen.
+  </p>
+  <p>
+  Wir von „Schwarzlicht
+  Würzburg“ sind dazu übergegangen einen Doppelpunkt (:) zu verwenden.
+  Dieser wird von standardmäßigen Readern wie TalkBack als übliche Pause
+  gelesen und stört dadurch nicht den Redefluss – im Gegensatz zu Sternchen und
+  Unterstrich, die voll ausgelesen werden. So wollen wir unsere Texte für
+  Menschen, die sie aus verschiedensten Gründen nicht lesen können, leichter
+  zugänglich machen. Doch nicht jeder Reader ist gleich, weshalb diese
+  Leitlinie nicht absolut gilt.
+  </p>
+  <p>
+  Nicht nur Nomen
   müssen gegendert werden, sondern alle Wörter, z.B. jede:r, er/sie/x, eine:r.</p>
   <p>Die genaue Umsetzung des Genderns bleibt jeder Person selbst überlassen, jedoch
   muss es stringent sein. Entweder es wird konstant mit Unterstrich, mit

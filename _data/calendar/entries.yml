@@ -3391,6 +3391,12 @@
   category: "death"
   singular: false
   date: "1970-12-16"
+- id: "b"
+  name: "Gedenktag an die Ermordeten im Porajmos"
+  description: "Porajmos ist Romanes für „das Verschlingen“. Es bezeichnet den Völkermord an den europäischen Roma im NS. An diesem Tag im Jahr 1942 ordnete Himmler die Deportation der im Deutschen Reich lebenden Roma in ein Konzentrationslager an."
+  category: "genocide"
+  singular: false
+  date: "1942-12-16"
 
 - id: "a"
   name: "*Èmilie du Châtelet"
