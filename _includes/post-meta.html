@@ -1,13 +1,15 @@
 			{% if include.type != "twitter" %}
-				<h2>
 				{% if include.teaser %}
+					<h2>
 					<a href="{{post.url}}">
 					{{ post.title }}
 					</a>
+					</h2>
 				{% else %}
+					<h1>
 					{{ post.title }}
+					</h1>
 				{% endif %}
-				</h2>
 			{% endif %}
 			{% if post.tags.first and post.tags != blank %}
 				<span class="post-category">
