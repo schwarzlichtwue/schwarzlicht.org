@@ -131,6 +131,10 @@
             logo: "/img/groups/gg/logo.png"
             contact:
                 mail: "gegen_gewalt@riseup.net"
+                mastodon: "https://antinetzwerk.de/@Gegen_Gewalt"
+                twitter: "https://twitter.com/gegen_gewaltwue"
+                instagram: "https://www.instagram.com/gegen_gewaltwue/"
+                facebook: "https://www.facebook.com/gegengewaltwue"
 - id: klimagerechtigkeit
   name: "Klimagerechtigkeit"
   groups:
@@ -171,6 +175,7 @@
             contact:
                 instagram: "https://www.instagram.com/eg_wue/"
                 twitter: "https://twitter.com/EGwuerzburg"
+                mastodon: "https://wue.social/@EGwuerzburg"
                 facebook: "https://www.facebook.com/EndeGelaendeWue"
                 mail: "mailto:wuerzburg@ende-gelaende.org"
                 website: "https://www.ende-gelaende.org"
