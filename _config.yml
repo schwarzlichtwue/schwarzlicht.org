@@ -58,7 +58,7 @@ jekyll-archives:
     month: month-archive
     #day: day-archive
 
-keep_files: [img,media]
+keep_files: [img,media,websites]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

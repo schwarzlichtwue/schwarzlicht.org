@@ -3,6 +3,8 @@ title: Würzburger Web-Archiv
 layout: sub
 ---
 
+{% assign entries = site.data.websites | sort: "start" %}
+
 <div class="container">
 	<div class="row">
 		<h1>Würzburger Web-Archiv</h1>
@@ -14,36 +16,21 @@ layout: sub
 			stellen sie hier zur Verfügung.
 		</p>
 		<p>
-			Aktuell sind die Websites des
-			<a href="aau.blogsport.de">Anarchistischen Aktionsbündnis
-				Unterfranken</a>, der
-			<a href="jawue.blogsport.de">Jugendantifa Würzburg</a>, der
-			<a href="aw.blogsport.de">Autonomen Antifa Würzburg</a> und von
-			<a href="antirawuerzburg.blogsport.de">Antira Würzburg</a> in
-			unserem Archiv verfügbar.
-			Die Beiträge dieser Blogs sind aus den Jahren 2009 bis 2014.
+			Die Beiträge der von uns archivierten Blogs sind aus den Jahren 2009 bis 2014.
+			Insgesamt handelt es sich um 524 Beiträge.
+		</p>
+		<p>
+			Die Blogs sind automatisiert und unverändert archiviert worden. Schwarzlicht
+			übernimmt keine Verantwortung für Inhalte oder Quellcode.
 		</p>
 		<ul class="collection">
+			{% for entry in entries %}
 			<li class="collection-item">
-				<a href="aau.blogsport.de">
-					Anarchistisches Aktionsbündnis Unterfranken
+				<a href="/websites/{{ entry.domain }}">
+					{{ entry.start }} – {{ entry.end }}: {{ entry.name }}
 				</a>
 			</li>
-			<li class="collection-item">
-				<a href="jawue.blogsport.de">
-					Jugendantifa Würzburg
-				</a>
-			</li>
-			<li class="collection-item">
-				<a href="aw.blogsport.de">
-					Autonome Antifa Würzburg
-				</a>
-			</li>
-			<li class="collection-item">
-				<a href="antirawuerzburg.blogsport.de">
-					Antira Würzburg
-				</a>
-			</li>
+			{% endfor %}
 		</ul>
 		<p>
 		Sofern unsere Archivierung diesen ehemaligen Gruppen missfällt, freuen

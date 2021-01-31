@@ -1,0 +1,66 @@
+		/* Clear floats without structural markup
+		   courtesy of htmldog.com/positioniseverything.net */
+		.clearfix:after {
+			content: "."; 
+			display: block; 
+			height: 0; 
+			clear: both; 
+			visibility: hidden;
+		}
+		
+		/* Hides from IE-mac \*/
+		* html .clearfix { height: 1%; }
+		/* End hide from IE-mac */
+		
+		div.intouch {
+			margin: 20px auto 40px;
+		}
+		
+		div.intouch  form {
+			float: left;
+			width: 100%;
+		}
+		
+		div.intouch div.inputfield { 
+			padding: 4px 0px;
+			position: relative;
+		}
+		
+		div.intouch label { 
+			display: block;
+			float: left;
+			clear: left;
+			width: 25%; 
+			text-align: right;
+		}
+		
+		div.intouch div.inputfield input, div.intouch div.inputfield textarea {
+			float: left;
+			margin-left: 10px;
+		}
+		
+		div.intouch div.inputfield input {
+			width: 40%;
+		}
+		
+		div.intouch div.inputfield textarea {
+			width: 50%;
+		}
+
+		div.intouch div.inputfield input.submitbutton {
+			width: auto !important;
+			padding: 2px;
+			margin-left: 10px;
+			left: 25%;
+			position: absolute;
+		}
+		
+		div.intouch div#usermessage {
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		
+		div.intouch .error {
+			border: 1px solid #FF0000 !important;
+			padding: 1px;
+		}
