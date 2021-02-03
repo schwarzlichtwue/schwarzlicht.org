@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>      <rss version="2.0" >
+         <channel>
+            <title>Anarkismo.net Videocast</title>
+            <description>All the latest video posted to Anarkismo.net newswire.</description>
+            <link>http://www.anarkismo.net</link>
+            <lastBuildDate>Wed, 03 Feb 2021 22:35:59 +0800</lastBuildDate>
+            <language>English</language>
+            	            <managingEditor>anarkismoeditors@lists.riseup.net (Anarkismo)</managingEditor>
+            <webMaster>anarkismoeditors@lists.riseup.net (Anarkismo)</webMaster>
+            <copyright>Open Content License, http://www.opencontent.org/</copyright>
+            <generator>Oscailt 3.8</generator>
+            <image>
+               <url>http://www.anarkismo.net/graphics/videocastlogo.jpg</url>
+               <title>Anarkismo.net Videocast</title>
+               <link>http://www.anarkismo.net</link>
+            </image>
+                     </channel>
+      </rss>

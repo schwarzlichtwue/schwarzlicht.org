@@ -1,3 +1,40 @@
+- name: "Antifaschistisches 1. Mai Bündnis Schweinfurt"
+  domain: 01mai2010.blogsport.de
+  start: 2010
+  end: 2010
+- name: "Autonome Antifa Main-Tauber"
+  domain: aamt.blogsport.de
+  start: 2012
+  end: 2012
+- name: "Bildung Diskutieren – Bildungskritik"
+  domain: bildungdiskutieren.blogsport.de
+  start: 2009
+  end: 2013
+- name: "Gruppe exIL – Infoladen Würzburg"
+  domain: infoladenwuerzburg.blogsport.de
+  start: 2007
+  end: 2010
+- name: "Kommunal – Region Aschaffenburg / Miltenberg"
+  domain: kommunal.blogsport.de
+  start: 2009
+  end: 2017
+- name: "Autonomes Bündnis Bad Neustadt"
+  domain: neonnesaction.blogsport.de
+  start: 2010
+  end: 2010
+- name: "Soligruppe Unterfranken"
+  domain: solidaritaet.blogsport.de
+  start: 2008
+  end: 2009
+- name: "Subradical - Subkultur & Politik Aschaffenburg"
+  domain: subradical.blogsport.de
+  start: 2009
+  end: 2010
+- name: "Wissenswertes über Würzburg"
+  domain: wuew.blogsport.de
+  start: 2011
+  end: 2012
+
 - name: "Antinationale Assoziation Main-Spessart"
   domain: aamsp.blogsport.de
   start: 2009

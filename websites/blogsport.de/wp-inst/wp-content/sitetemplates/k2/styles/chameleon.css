@@ -1,0 +1,98 @@
+/*
+Author Name : Darren Oakley
+Author Site : http://oakley.bioinformaticsonline.co.uk/
+Style Name : Chameleon
+Style URI : http://oakley.bioinformaticsonline.co.uk/k2-styles/
+Version : 1.0
+Comments : Style inspired by the excellent SuSE Linux 10.0 desktop background
+*/
+
+body {
+	background-color: #426b44;
+	}
+
+#page {
+	/* The entire design is contained within the 'page' id */
+	margin-top: 12px;
+	padding: 10px 0;
+	}
+	
+#header {
+	/* Contains the H1 and menu */
+	background: url('chameleon/chameleon.jpg') center no-repeat;
+	background-color: none;
+	position: relative;
+	height: 200px;
+	width: 760px;
+	margin: 0px auto;
+	}
+	
+h1 a, h1 a:hover, h1 a:visited:hover {
+	text-decoration: none;
+	}
+
+ul.menu li a:hover {
+	opacity: 0.7;
+	}
+
+ul.menu li.current_page_item a:hover {
+	opacity: 0.7;
+	}
+	
+/*- Links */
+
+a:hover, a:visited:hover {
+	text-decoration: underline;
+	}
+
+h2 a:hover, h2 span a:hover {
+	color: #426b44;
+	}
+
+a {
+	color: #426b44;
+	text-decoration: none;
+	}
+
+.entry-content a:visited {
+	color: #7abc7d;
+	}
+
+/* BEGIN: Flickr Album Fixes... */
+
+.falbum-album {
+   clear: left;
+   margin-top: 10px;
+}
+
+.falbum-navigationBar {
+   clear: left;
+}
+
+#flickr-photo {
+   margin-left: -15px;
+}
+
+.falbum-thumbnail-ds img:hover {
+   border: 1px #999 solid;
+}
+
+/* END: Flickr Album Fixes... */
+
+/* BEGIN: FlickrRSS Fixes... */
+
+.sb-flickr img {
+   margin: 4px;
+   padding: 2px;
+   border: 1px #999 solid;
+}
+
+#flickr ul { 
+   list-style: none; 
+}
+
+#flickr ul li { 
+   display: inline; 
+} 
+
+/* END: Flickr Album Fixes... */

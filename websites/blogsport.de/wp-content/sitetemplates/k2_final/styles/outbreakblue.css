@@ -1,0 +1,131 @@
+/*
+Style Name: Outbreak (Blue)
+Style URI: http://gigi.blogsport.de/k2-styles/
+Version: 2.0
+Author Name: Cory Holt
+Author Site: http://cholt.net/
+Comments: The header art used for this theme came from the Digital Westex Header Art Gallery. Props to them for supplying awesome graphics because I suck :( // Revised by gigi to fit K 0.9.1
+*/
+
+/*- Page Structure */
+
+body {
+	background: url('outbreakblue_images/bg.gif');
+	color: #666;
+	}
+
+#page {
+	background: #000;
+	}
+
+#header {
+	background-image: url('outbreakblue_images/header.jpg');
+	}
+
+.secondary {
+	font: 1em/1.5em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color: #eee;
+	}
+
+ul.menu li a {
+	font: 1em Verdana, Helvetica, Arial, Sans-Serif;
+	}
+
+#primary h3, #primary h4, .single #primary .k2-asides h3 {
+	font-size: 2.2em;
+	}
+
+#primary .k2-asides h3 {
+	font-size: 1.6em;
+	}
+
+#primary .entry-content h3 {
+	font-size: 1.7em;
+	}
+
+#primary .entry-content h4 {
+	font-size: 1.5em;
+	}
+
+.single #primary .k2-asides .entry-content {
+	font-size: 1.4em;
+	color: #eee;
+	}
+
+#primary .k2-asides {
+	padding: 8px;
+	margin: 0 4%;
+	}
+
+h2, h2 a, h2 a:visited,
+h3, h3 a, h3 a:visited,
+h4, h4 a, h4 a:visited {
+	color: #777;
+	}
+
+/*- Primary Contents */
+
+.entry-content, #commentlist li .comment-content {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color: #eee;
+	}
+
+.comments #commentlist li.byuser {
+	background: #000;
+	}
+
+.comments #commentlist li.bypostauthor {
+	background: #111;
+	}
+
+.comments #commentlist li.bypostauthor blockquote,
+.comments #commentlist li.byuser blockquote {
+	background: url('commons/quote_black.png') 10px 0 no-repeat;
+	color: #eee;
+	}
+
+#pinglist {
+	background: #060708;
+	}
+
+input[type=text], textarea {
+	font: 1em Verdana, Arial, Helvetica, Sans-Serif;
+	}
+
+h2 a:hover, h2 span a:hover {
+	color: #1071BD;
+	}
+
+a, .entry-content a:visited {
+	color: #1071BD;
+	}
+
+blockquote {
+	color: #bbb !important;
+	background: url('commons/quote_black.png') 10px 0 no-repeat;
+	}
+
+/* Blue Feed Icon - added by gigi */
+.feedlink, .columns-three .feedlink, .columns-three .sb-feed a {
+	background-image: url('outbreakblue_images/feedicon.gif');
+	margin: 0px 10px 3px 0px;
+	height: 12px;
+	}
+
+/* Black Slider */
+body.smartposition #rollingarchives {
+	background: #000 !important;
+	border-bottom: 1px solid #1A1A1A !important;
+	}
+
+#trimmertrackwrap, #pagetrackwrap {
+	background-image: url('commons/sliderbgright.png') !important;
+	}
+
+#trimmertrack, #pagetrack {
+	background-image: url('commons/sliderbgleft.png') !important;
+	}
+
+#rollload, .comments #commentload, #searchload {
+	background-image: url('commons/spinner.gif') !important;
+	}

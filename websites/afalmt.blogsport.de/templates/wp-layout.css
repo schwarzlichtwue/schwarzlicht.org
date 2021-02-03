@@ -60,7 +60,7 @@ h1 {
 - Das Noteworthy-Symbol (Herz) durch ein eigenes Icon (hier: ein Stern) ersetzen:
 
 .category-noteworthy h3.entry-title {
-	background: url('http://blogsport.de/wp-images/favorite.gif') no-repeat right center;
+	background: url('../../blogsport.de/wp-images/favorite.gif') no-repeat right center;
 	padding-right: 25px;
 }
 

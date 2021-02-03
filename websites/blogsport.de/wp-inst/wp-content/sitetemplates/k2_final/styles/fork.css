@@ -1,0 +1,289 @@
+/*
+	CSS files kept in the 'schemes' directory can be used to
+	costumize your K2 installation without having to mess
+	with the core K2 files. This in turn makes it easier to
+	upgrade to new K2 version as well as debug any problems
+	that might occur.
+
+	You select schemes from the K2 Options page in the
+	'Presentation' section of your WordPress administration.
+
+	Author Name	: Dave Kellam
+	Author Site	: http://eightface.com/
+	Style Name	: Fork
+	Style URI	: http://gigi.blogsport.de/k2-styles/
+	Version		: (RC5)
+	Comments	: Making K2 dirty. (Upgraded by gigi to fit K2 RC5)
+
+*/
+
+/*- Page Structure */
+
+body {
+	font-family: Verdana, Arial, Sans-Serif;
+	color: #111;
+	background: #000 url('fork/body.background.jpg');
+	margin: 40px 0 35px;
+	}
+
+#page {
+	background: #ddd url('fork/page.background.jpg');
+	border: none;
+	padding: 0 0 10px;
+	}
+
+#header {
+	background-color: #000;
+	background-image: url('fork/header.background.jpg');
+	}
+
+#primary {
+	width: 483px;
+	}
+
+.columns-one #primary {
+	padding: 10px 10px 10px 7px;
+	}
+
+.entry-content {
+	margin: 0 0 0 15px;
+	}
+
+.content {
+	padding: 0 10px;
+	}
+
+.secondary, .columns-three #sidebar-1 {
+	font: 1em/1.5em Verdana, Arial, Sans-Serif;
+	padding: 0 10px 0 13px;
+	width: 234px;
+	}
+
+/*- Main Menu in Header */
+
+ul.menu {
+	left: 10px;
+	}
+
+ul.menu li a {
+	font: 1.1em Helvetica, Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: eee;
+	}
+
+ul.menu li a:hover, ul.menu li.current_page_item a:hover {
+	background: #990000;
+	color: #fff !important;
+	}
+
+ul.menu li.current_page_item a {
+	color: #e5e5e5 !important;
+	background: none;
+	}
+
+/*- Headings */
+
+h1, h2, h3, h4 {
+	font-family: Helvetica, Verdana, Sans-Serif;
+	}
+
+h1 { /* H1 is used for the title of your blog */
+	font-size: 3.6em;
+	padding: 75px 30px 0;
+	text-transform: uppercase;
+	}
+
+#header .description { /* Blog description, under blog title */
+	font-size: 1em;
+	margin: 0 0 0 30px;
+	}
+
+h2 { /* H2 is what kind of page you are on. Eg. 'Monthly Archive'. */
+	font-size: 2.3em;
+	text-transform: uppercase;
+	}
+
+.secondary h4 { /* Secondary H2 is sidebar headlines */
+	font-size: 1.3em !important;
+	font-weight: bold !important;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	}
+
+#primary h3, #primary h4, .single #primary .k2-asides h3 { /* H3 is entry headlines. H4 is comments and replyform headlines */
+	font-size: 2.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+
+#primary .k2-asides h3 {
+	font-size: 1.4em;
+	font-weight: bold;
+	}
+
+.entry-head {
+	background: url('fork/post.title.icon.star.gif') 0 50% no-repeat;
+	padding: 0 0 0 40px;
+}
+
+#primary .k2-asides .entry-head {
+	background: url('fork/post.title.aside.icon.star.gif') 0 50% no-repeat;
+	padding: 0 0 0 25px;
+}
+
+#primary .metalink a, #primary .metalink a:visited, /* The Metalink class takes care of the comments, edit, rss and trackback links next to the titles */
+.secondary .metalink a, .secondary .metalink a:visited {
+	color: #777 !important;
+	font-weight: normal;
+	}
+
+.single #primary .k2-asides .entry-content {
+	font-size: 1.3em;
+	color: #777;
+	}
+
+h2, h2 a, h2 a:visited,
+h3, h3 a, h3 a:visited,
+h4, h4 a, h4 a:visited {
+	color: #333;
+	}
+
+.commentslink {
+	background: url('fork/icons/comment.png') left center no-repeat;
+	}
+
+.chronodata {
+	background: url('fork/icons/time.png') left center no-repeat;
+	}
+
+.entry-tags {
+	background: url('fork/icons/tag_blue.png') left center no-repeat;
+	}
+
+.commentsrsslink {
+	background: url('fork/icons/feed.png') left top no-repeat;
+	}
+
+.trackbacklink {
+	background: url('fork/icons/arrow_refresh.png') left top no-repeat;
+	}
+
+#commentlist li .comment-meta {
+	background: url('fork/icons/time.png') left center no-repeat;
+	}
+
+#commentlist li.byuser { background-color: #ddd; }
+
+/*- Search Form and Livesearch */
+
+input[type=text], textarea {
+	padding: 2px 0 2px 2px;
+	margin: 0;
+	}
+
+input[type=text]:focus, textarea:focus {
+	color: #444;
+	}
+
+/*- Primary Contents */
+
+.k2-asides .entry-content {
+	color: #555;
+	}
+
+/*- Links */
+
+h2 a:hover, h2 span a:hover {
+	color: #990000 !important;
+	}
+
+a {
+	color: #990000;
+	text-decoration: none;
+	}
+
+.entry-content a:visited {
+	color: #660000;
+	}
+
+/*- Various Tags and Classes */
+
+.alert {
+	background: #fffef5;
+	border-top: 2px solid #d4ba52;
+	border-bottom: 2px solid #d4ba52;
+	}
+
+/* Feed Icon Replacement (added by gigi) */
+
+.feedlink, .columns-three .feedlink, .columns-three .sb-feed a {
+	background-image: url('fork/icons/feed.png');
+	height: 16px;
+	padding: 0 20px;
+	line-height: 1.7em;
+	}
+
+/* Google Ad */
+
+body > #google_bottom {
+	text-align: right;
+	display: inline-block;
+	zoom: 1;
+	display*: inline; /* ie hack */
+	}
+
+/* Slider */
+
+body.smartposition #rollingarchives {
+	background: #ddd url('fork/page.background.jpg') !important;
+	border-bottom: 1px solid #ddd !important;
+	}
+
+#searchload {
+	background-image: url('fork/spinner.gif');
+	}
+
+#rollingarchives {
+	margin-left: 4px !important;
+	width: 479px !important;
+	}
+
+#pagetrack, #pagetrackwrap {
+	width: 223px !important;
+	}
+
+#wprmenu_bar {
+	background: url("fork/body.background.jpg");
+}
+
+@media screen and (min-width: 768px) and (max-width: 779px) {
+
+	body.fork #primary {
+		padding-left: 0;
+	}
+
+	body.fork .navigation,
+	body.fork .comments {
+		margin-left: 5px;
+	}
+
+}
+
+/* Responsive Column */
+@media screen and (max-width: 527px) {
+
+	body.fork .entry-content {
+		margin: 0;
+	}
+
+	body.fork .entry-head {
+		margin-left: -5px;
+	}
+
+	body.fork blockquote {
+		padding: 0 20px 0 30px;
+		background-position: 0;
+	}
+
+}

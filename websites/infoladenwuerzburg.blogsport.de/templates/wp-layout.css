@@ -1,0 +1,69 @@
+/*
+	Das Grund-Stylesheet und die Schemes können in K2 nicht mehr bearbeitet werden.
+
+	Mit diesem Benutzer-Stylesheet ist es aber möglich, die Standard-Werte zu
+	überschreiben und so dein eigenes Layout zu erstellen.
+
+	Das Grund-Stylesheet von K2 findest du hier:
+	http://blogsport.de/wp-inst/wp-content/sitetemplates/k2/style.css
+	
+	Author Name	:
+	Author Site	:
+	Style Name	:
+	Style URI	:
+	Version		:
+	Comments	:
+
+
+Es folgen exemplarische Angaben, die du aktivieren kannst, indem du sie ganz unten
+nach dem Ende des Kommentarbereits einfügst.	
+
+- Wenn du die Höhe deines Headers (Standard: 200px) anpassen willst, kannst du das
+  mit folgendem Befehl:
+
+#header {
+	height: 200px;
+	}
+
+- Parallel zu den Änderungen an der Header-Höhe kannst du auch den Blogtitel weiter
+  nach oben bzw. unten setzen (Standardwert: 75px):
+
+h1 {
+	padding-top: 75px;
+	}
+
+- Wenn dir die Schrift deiner Beiträge zu klein ist, kannst du sie mit folgenden
+  Angaben vergrößern (Standardschriftgröße/Zeilenabstand: 1.1em/1.5em):
+
+#primary .entry-content {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	}
+
+- Dasselbe geht auch mit der Schriftgröße und dem Zeilenabstand der Kommentare
+  (Standardwerte: 1.1em/1.5em):
+
+#commentlist li .comment-content {
+	padding: 10px 0;
+	font-size: 1.2em;
+	line-height: 1.8em;
+	}
+
+- Die Bilder in deinen Posts sollen keinen Rahmen haben? Dann füg das hier ein:
+
+#primary .entry-content img {
+	padding: 5px;
+	border: none;
+	}
+
+- Das Noteworthy-Symbol (Herz) durch ein eigenes Icon (hier: ein Stern) ersetzen:
+
+.category-noteworthy h3.entry-title {
+	background: url('http://blogsport.de/wp-images/favorite.gif') no-repeat right center;
+	padding-right: 25px;
+}
+
+++Ende des Kommentarbereichs++ */
+
+
+/* Hier die Angaben einfügen */

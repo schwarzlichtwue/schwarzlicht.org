@@ -1,0 +1,85 @@
+/*
+	Author Name	: Dan
+	Author Site	: http://hitechloon.deviantart.com/
+	Style Name	: Sindar
+	Style URI	: http://gigi.blogsport.de/k2-styles/
+	Version		: 2.0
+	Comments	: Revised by gigi to fit K2 0.9.1
+*/
+
+body {
+	font-family: 'Lucida Grande' Myriad Apple, Verdana, Arial, Sans-Serif;
+	color: #444;
+}
+
+#page {
+	padding: 10px 0;
+	border: 1px solid #DEDEDE;
+	margin-top: 20px;
+}
+
+.content {
+	padding: 0 10px 0 17px;
+	}
+
+@media screen and (min-width: 768px) and (max-width: 779px) {
+
+	body:not(.columns-one) #page .content {
+		padding: 0 10px 0 8px;
+	}
+
+}
+
+#header {
+	background-image: url('MIna/birch.jpg');
+	background-position: center;
+	margin: 0 10px;
+}
+
+ul.menu {
+	left: 10px;
+	width: 91%;
+	}
+
+ul.menu li a {
+	font: 1em Verdana, Helvetica, Arial, Sans-Serif;
+	text-transform: lowercase;
+	color: #000 !important;
+	background-color: #999;
+	opacity: .60;
+	}
+
+ul.menu li a:hover {
+	background: #000;
+	color: #ccc !important;
+	opacity: .70;
+	}
+
+ul.menu li.current_page_item a,
+ul.menu li.current_page_item a:hover {
+	color: #ccc !important;
+	background: #000;
+	opacity: .70;
+	}
+
+.secondary {
+	padding: 0 8px 0 17px;
+	font: 1em/1.5em ' Lucida Grande' Verdana, Arial, Sans-Serif;
+	color: #555;
+	}
+
+h1, h2, h3, h4 {
+	font-family: 'Century Gothic' Lucida Grande, Verdana, Sans-Serif;
+	}
+
+h2 a:hover, h2 span a:hover {
+	color: #707070;
+	}
+a {
+	color: #35C;
+	text-decoration: none;
+	}
+
+.entry-content a:visited {
+	color: #35C;
+	}

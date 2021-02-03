@@ -1,0 +1,1026 @@
+/* These classes govern the main page layout for table-based pages          */
+/* They are also inherited by the objects in the menus and so on            */
+/* configuration pages and inherited by contained objects                   */
+
+
+div.indypage {
+	WIDTH: 100%;
+	MARGIN: 0px;
+	PADDING: 0;
+}
+
+div.indyheader {
+	MARGIN: 0 0 0 0;
+	PADDING: 0px;
+	clear: both;
+}
+
+table.indyheader{
+	WIDTH: 100%;
+	PADDING: 0px;
+	MARGIN: 0px 0px 0px 0px;
+	border-collapse: collapse;
+}
+
+tr.indyheader{
+	PADDING: 0px;
+	MARGIN: 0px;
+}
+
+td.indyheader{
+	WIDTH: 100%;
+	PADDING: 0px;
+	MARGIN: 0px;
+	vertical-align: bottom;
+	height: 100%;
+}
+
+th.indyheader{
+	WIDTH: 100%;
+	PADDING: 0px;
+	MARGIN: 0px;
+	vertical-align: bottom;
+	height: 100%;
+}
+
+/* bar rendered as a list and styled into a navigation bar */
+
+table.filterbar
+{
+	width: 100%;
+	background-color: #e5e5e5;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-left-color: #993333;
+	border-right-width: 4px;
+	border-right-style: solid;
+	border-right-color: #993333;
+	margin: 0;
+	border-collapse: collapse;
+}
+
+select.filterbar
+{
+	background-color: #e5e5e5;
+	padding: 0px;
+	margin: 0px;
+}
+
+tr.filterbar
+{
+	padding: 0px;
+}
+
+td.filterbar
+{
+	text-align: right;
+	padding-top: 0.3em;
+	padding-bottom: 0.4em;	
+	vertical-align: bottom;	
+}
+
+form
+{
+padding: 0px;
+}
+
+input.filterbar
+{
+}
+
+table.navbar
+{
+	width:100%;
+	background-color: #993333;
+	padding-top: 0.1em;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	padding-bottom: 0.1em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #330000;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-left-color: #993333;
+	border-right-width: 4px;
+	border-right-style: solid;
+	border-right-color: #993333;
+	margin: 0;
+}
+
+td.navbar
+{
+	font-weight: bold;
+	text-align: center;
+}
+a.navbar:link 
+{
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: helvetica,sans-serif;
+}
+
+a.navbar:visited
+{
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.navbar:active
+{
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+a.navbar:hover 
+{
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+ul.indyheader{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	background-color: #993333;
+	color: White;
+	float: left;
+	width: 100%;
+	height: 100%;
+	vertical-align: bottom;
+	font-family: arial, helvetica, sans-serif;
+	display: inline;
+}
+
+li.indyheader
+{
+	display: inline;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	padding: 2px 0 2px 0px;
+	list-style-type: none;
+
+}
+
+A.indyheader:link
+{
+	padding-bottom: 3px;
+	padding-top: 2px;
+	padding-right: 6px;
+	padding-left: 6px;
+	color: White;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+a.indyheader:visited
+{
+	padding-bottom: 3px;
+	padding-top: 2px;
+	padding-right: 6px;
+	padding-left: 6px;	
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+
+a.indyheader:active
+{
+	padding-bottom: 3px;
+	padding-top: 2px;
+	padding-right: 6px;
+	padding-left: 6px;	font-size: 14px;
+	text-decoration: none;
+}
+
+a.indyheader:hover 
+{
+	padding-bottom: 3px;
+	padding-top: 2px;
+	padding-right: 6px;
+	padding-left: 6px;	
+                      font-size: 14px;
+	background-color: #97B697;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* these elements are overridden classes set to a specific class in the page configuration screen */
+li.header-icon
+{
+	display: inline;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+img.header-icon-thumbnail
+{
+	padding: 0px;
+	margin: 0px;
+	vertical-align: top;
+}
+
+INPUT.header-right
+{
+	background-color: #e5e5e5;
+	border: 0;
+	text-align: right;
+	vertical-align: middle;
+	width: 12em;
+	color: #4B675B;	
+	padding: 0.2em 0.4em 0em 0.4em;
+	font-size: 0.9em;
+	height: 1.4em;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+
+input.header-right-image{
+	margin: 0px;
+	vertical-align: top;
+}
+
+li.header-right
+{
+	display: inline;
+	text-decoration: none;
+	position: relative;
+	float: right;
+	list-style-type: none;
+	background-color: #69796C;
+}
+
+/* simple classes to hold banners */
+table.banner-right
+{
+	clear: both;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0;
+}
+
+tr.banner-right{}
+
+td.banner-right{
+	text-align: right;
+	vertical-align: bottom;
+}
+
+img.banner-right-thumbnail
+{
+	padding: 0px;
+	margin: 0px -4px 0px 0px;
+}
+
+table.banner-right-gallery{
+	float: right;
+	margin-right: 6px;
+}
+
+table.banner-left
+{
+	width: 100%;
+	border-collapse: collapse;
+	margin: -1px 0 0 -2px;
+	border: 0;
+}
+
+tr.banner-left{
+	border: 0;
+}
+
+td.banner-left{
+	text-align: left;
+	border: 0;
+}
+
+table.banner-left-gallery
+{
+       float: right;
+       margin-right: 4px;
+}
+
+table.banner-center
+{
+	text-align: center;
+	clear: both;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0px 1px 1em 1px;
+  	 background-color: #F6E8E8;
+	border: #F8B8B8 2px solid;
+	padding: 4px;
+}
+
+tr.banner-center{}
+td.banner-center{
+	text-align: center;
+}
+
+
+/*  The table cell to hold the main page body */
+
+table.indypagebody{
+	BACKGROUND-COLOR: #ffffff;
+	MARGIN: -4px 0 0 0px;	
+	BORDER: 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+tr.indypagebody{}
+
+td.indypagebody{
+	MARGIN: 0px 190px 0px 0px;
+	PADDING: 20px 20px 4% 20px;
+	VERTICAL-ALIGN: TOP;
+	BACKGROUND-COLOR: #ffffff;
+}
+
+/* this is an example of a column. If you want to make your own styled columns */
+/* You will probably need to implement most of these html elements             */
+
+td.indyleftcolumn {
+	BORDER-LEFT: #993333 4px solid;
+	PADDING-LEFT: 4px;
+	PADDING-RIGHT: 3px;
+	BACKGROUND-COLOR: #e5e5e5;
+	WIDTH: 136px;
+	vertical-align: top;
+}
+
+.indyleftcolumn
+{
+}
+
+div.navigation
+{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #993333;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #bb9999;
+	margin-top: 0.2em;
+	margin-bottom: 8px;
+	margin-right: 0.2em;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bb9999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #993333;
+	background-color: #f3efef;
+	padding-top: 0em;
+	padding-right: 0.1em;
+	padding-bottom: 0.2em;
+	padding-left: 0.4em;
+}
+
+
+H4.navigation{
+	padding-top: 0.3em;
+	padding-right: 0.3em;
+	padding-bottom: 0.3em;
+	padding-left: 0.3em;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	font-weight: bold;
+	font-size: 125%;
+	color: #993333;
+	font-family: arial,sans-serif;
+	background-color: #ffffff;
+}
+
+P.navigation {
+  margin: 0px;
+  font-size: 95%;
+}
+
+A.navigation:link {
+	TEXT-DECORATION: none
+}
+A.navigation:visited {
+	TEXT-DECORATION: none
+}
+A.navigation:hover {
+	TEXT-DECORATION: underline;
+}
+A.navigation:active {
+	TEXT-DECORATION: none
+}
+
+
+div.indyleftcolumn
+{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #993333;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #bb9999;
+	margin-top: 0.2em;
+	margin-bottom: 8px;
+	margin-right: 0.2em;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bb9999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #993333;
+	background-color: #f3efef;
+	padding: 0em 0.1em 0.3em 0.3em;
+}
+
+
+H4.indyleftcolumn
+{
+	padding: 0.3em;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	font-weight: bold;
+	font-size: 110%;
+	color: #993333;
+	font-family: arial,sans-serif;
+	background-color: #ffffff;
+}
+
+ul.indyleftcolumn
+{	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	margin-top: 0pt;
+	margin-right: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	list-style-type: none;
+}
+
+li.prefs
+{
+
+}
+
+div.search
+{
+	text-align: center;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #993333;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #bb9999;
+	margin-top: 0.2em;
+	margin-bottom: 8px;
+	margin-right: 0.2em;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #bb9999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #993333;
+	background-color: #f3efef;
+	padding: 0em 0.1em 0.3em 0.3em;	
+}
+
+H4.search
+{
+	padding: 0.3em;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	font-weight: bold;
+	font-size: 110%;
+	color: #993333;
+	font-family: arial,sans-serif;
+	background-color: #ffffff;
+}
+
+p.search
+{
+	margin: 1px 0px 0px 0px;	
+	text-align: left;
+}
+
+A.search
+{
+	font-size: 0.9em;
+	text-align: right;
+	
+}
+
+A.search:link {
+	TEXT-DECORATION: none
+}
+A.search:visited {
+	TEXT-DECORATION: none
+}
+A.search:hover {
+	TEXT-DECORATION: underline;
+}
+A.search:active {
+	TEXT-DECORATION: none
+}
+
+
+input.search
+{
+	width: 80%;
+}
+
+input.search-button
+{
+	background-color: #993333;
+	border: 0;
+	color: #fff;	
+	margin: 3px 0 2px 0;
+}
+
+A.indyleftcolumn:link {
+	TEXT-DECORATION: none
+}
+A.indyleftcolumn:visited {
+	TEXT-DECORATION: none
+}
+A.indyleftcolumn:hover {
+	TEXT-DECORATION: underline;
+}
+A.indyleftcolumn:active {
+	TEXT-DECORATION: none
+}
+
+P.indyleftcolumn {
+	margin: 0.5em 0px 0.5em 0px;
+}
+
+/* some special classes that are composed from the column class */
+P.indyleftcolumn-date {
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+P.indyleftcolumn-context {
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 0.8em;
+}
+
+p.indyleftcolumn-icons {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+.indyleftcolumndate{
+	font-size: 0.9em;
+}
+
+.indyleftcolumncomments{
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+.indyleftcolumnauthor{
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+.indyleftcolumnorganisation{
+	font-size: 0.85em;
+}
+
+.indyleftcolumn-alternativedate{
+	font-size: 0.9em;
+}
+
+.indyleftcolumn-alternativecomments{
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+.indyleftcolumn-alternativeauthor{
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+.indyleftcolumn-alternativeorganisation{
+	font-size: 0.85em;
+}
+
+div.indyleftcolumn-thumbnail{
+	margin-top: 4px;
+}
+
+img.indyleftcolumn-thumbnail{
+	border: 0;
+}
+
+span.indyleftcolumn-readmore
+{
+	margin-top: -1em;
+	font-size: 0.85em;
+	float: right;
+	margin-bottom: 0.5em;
+}
+select.indyleftcolumn
+{
+ 	background-color: #e5e5e5;
+	color: #993333;
+   	width: 80%; 
+	font-size: 1em;
+	margin: 0.5em auto 0.2em auto;
+}
+
+input.indyleftcolumn
+{
+   	font-size: 0.9em;
+	margin: 0.2em auto 0.5em auto;
+	background-color: #993333;
+	border: 0;
+	color: #fff;		
+	font-size: 1em;
+	padding: 2px;
+}
+
+
+
+/* A second column with similar classes */
+
+.indyrightcolumn{
+}
+A.indyrightcolumn:link {
+	TEXT-DECORATION: none
+}
+A.indyrightcolumn:visited {
+TEXT-DECORATION: none
+}
+A.indyrightcolumn:hover {
+	TEXT-DECORATION: underline;
+}
+A.indyrightcolumn:active {
+	TEXT-DECORATION: none
+}
+
+
+td.indyrightcolumn{
+	WIDTH: 170px;	
+	background-color: #e5e5e5;
+	padding-left: 0.4em;
+	padding-right: 0.5em;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	border-right-width: 4px;
+	border-right-style: solid;
+	border-right-color: #993333;
+	VERTICAL-ALIGN: TOP;
+
+}
+
+div.indyrightcolumn
+{
+	MARGIN: 0;
+	padding: 0px 4px 10px 10px;
+}
+
+ul.indyrightcolumn{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li.indyrightcolumn{
+	font-size: 1.2em;
+	padding: 2px;
+}
+
+H5.indyrightcolumn{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+H4.indyrightcolumn{
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+
+H3.indyrightcolumn{
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+
+H4.indyrightcolumn{
+	margin-top: 8px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+H1.indyrightcolumn{
+	margin-top: 18px;
+	margin-bottom: 10px;
+}
+
+A.indyrightcolumn:link {
+	COLOR: #1B3A1B; 
+	TEXT-DECORATION: none
+}
+
+A.indyrightcolumn:visited {
+	COLOR: #1B3A1B; 
+	TEXT-DECORATION: none
+}
+
+A.indyrightcolumn:hover {
+	COLOR: #1B3A1B; 
+	TEXT-DECORATION: underline;
+}
+
+A.indyrightcolumn:active {
+	COLOR: #1B3A1B; 
+	TEXT-DECORATION: none
+}
+
+A.indyrightcolumn-alternative:link {
+	COLOR: #1B3A1B; 
+	TEXT-DECORATION: none
+}
+
+A.indyrightcolumn-alternative:visited {
+	COLOR: #1B3A1B; 
+	TEXT-DECORATION: none
+}
+
+A.indyrightcolumn-alternative:hover {
+	COLOR: #1B3A1B; 
+	TEXT-DECORATION: underline;
+}
+
+A.indyrightcolumn-alternative:active {
+	COLOR: #1B3A1B; 
+	TEXT-DECORATION: none
+}
+
+
+P.indyrightcolumn {}
+P.indyrightcolumn-alternative {}
+
+/* classes of data at the top of news feeds */
+P.indyrightcolumn-date {
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+P.indyrightcolumn-context {
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 0.8em;
+}
+
+p.indyrightcolumn-icons {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+
+span.indyrightcolumn-readmore
+{
+	margin-top: -1em;
+	font-size: 0.85em;
+	float: right;
+}
+
+/* classes for headlines in newsfeeds */
+.indyrightcolumnauthor {
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+.indyrightcolumndate {
+	font-size: 0.9em;
+}
+
+.indyrightcolumncomments {
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+.indyrightcolumnorganisation {
+	font-size: 0.85em;
+}
+
+.indyrightcolumn-alternativeauthor {
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+.indyrightcolumn-alternativedate {
+	font-size: 0.9em;
+}
+
+.indyrightcolumn-alternativecomments {
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+.indyrightcolumn-alternativeorganisation {
+	font-size: 0.85em;
+}
+
+div.indyrightcolumn-thumbnail{
+	margin-top: 4px;
+}
+
+img.indyrightcolumn-thumbnail {
+	border: 0;
+}
+
+div.feeds
+{
+	border-top: 2px #fff solid;
+}
+
+h4.feeds
+{
+	margin: 8px 0 8px 0;
+	text-align: center;
+}
+
+p.feeds
+{
+	margin: 1px 0 0 0;
+	text-align: center;
+}
+
+A.feeds:link {
+	TEXT-DECORATION: none
+}
+A.feeds:visited {
+TEXT-DECORATION: none
+}
+A.feeds:hover {
+	TEXT-DECORATION: underline;
+}
+A.feeds:active {
+	TEXT-DECORATION: none
+}	
+
+/* these are over-ridden elements in the menus - set by specifying a particular class on the menu configuration screen for this element */
+
+div.indymainpanediv { 
+	PADDING: 0 20px 0 20px;
+ 	margin-left: 140px;
+ 	margin-right: 160px;
+ 	background-color: #fff;
+	line-height: 130%;
+	height: 100%;
+}
+
+
+div.indyrightdiv {
+	WIDTH: 150px;	
+	BACKGROUND-COLOR: #97B697;
+ 	float: right;
+	margin: 0;
+	padding: 0.5em;
+	height: 100%;
+}
+
+div.indypagecontents {
+	BACKGROUND-COLOR: #FFF;
+	height: 100%;
+	margin-left: 120px;
+	margin-right: 140px;
+	PADDING: 0.5em 5em 0.5em 5em;
+}
+
+div.indyleftdiv{
+	BACKGROUND-COLOR: #97B697;
+	WIDTH: 130px;
+   float: left;
+   PADDING: 0.5em 0.2em 0.5em 0.4em;
+	height: 100%;
+}
+
+
+div.insetbox
+{
+	float: right;
+	width: 200px;
+	position: relative;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 4px;
+	clear: right;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	background-color: #F6E8E8;
+	border: #e8d8d8 2px solid;	
+}
+
+table.indyfooter
+{
+background-color: #993333;
+color: #ffffff;
+padding-top: 4px;
+padding-right: 4px;
+padding-bottom: 4px;
+padding-left: 4px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+}
+
+td.indyfooter
+{
+padding-top: 4px;
+padding-right: 4px;
+padding-bottom: 4px;
+padding-left: 4px;
+
+}
+
+a.indyfooter:link
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+a.indyfooter:visited
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.indyfooter:active
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+a.indyfooter:hover
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+div.indy-insetbox {
+	float: right;
+	width: 200px;
+	position: relative;
+	margin: 30px 0px 8px 4px;
+	background-color: #F6E8E8;
+	border: #F8B8B8 2px solid;
+	clear: right;
+	padding: 4px;
+}
+
+P.indy-insetbox{
+	font-size: 0.85em;
+}
+
+span.indy-insetboxcomments
+{
+	font-style: italic;
+}
+
+A.indy-insetbox:link {
+	COLOR: #69796C;
+	TEXT-DECORATION: none
+}
+
+A.indy-insetbox:visited {
+	COLOR: #69796C;
+	TEXT-DECORATION: none
+}
+
+A.indy-insetbox:hover {
+	COLOR: #69796C;
+	TEXT-DECORATION: underline;
+}
+
+A.indy-insetbox:active {
+	COLOR: #69796C;
+	TEXT-DECORATION: none
+}

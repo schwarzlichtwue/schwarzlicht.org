@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>      <feed xmlns="http://www.w3.org/2005/Atom">
+         <generator uri="http://www.indymedia.ie/oscailt/" version="3.8">Oscailt</generator>
+         <title>Anarkismo.net Videocast</title>
+         <subtitle>All the latest video posted to Anarkismo.net newswire.</subtitle>
+         <link rel="alternate" type="text/html" href="http://www.anarkismo.net"/>
+         <link rel="self" type="application/atom+xml" href="http://www.anarkismo.net/atomvideocast"/>
+         <updated>2021-02-03T22:35:58+08:00</updated>
+         <author>
+            <name>Anarkismo</name>
+            <email>anarkismoeditors@lists.riseup.net</email>         </author>
+         <id>http://www.anarkismo.net/atomvideocast</id>
+         <logo>http://www.anarkismo.net/graphics/videocastlogo.jpg</logo>
+               </feed>

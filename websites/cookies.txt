@@ -1,0 +1,43 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+auszeitnews.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	a2a3b679273d816fcdb5c14ce7fd88ef
+afalmt.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	a878aaadef27243500eb5e3b7d86f047
+miltenbergautonom.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	4042260db0a6e1dd4f6472b410af304b
+alk.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	b61536f3efe6f59d162182058b5b0b8d
+www.anarkismo.net	TRUE	/	FALSE	1999999999	PHPSESSID	9433e78a6dd75bc6747298cb87746c64
+www.diraction.org	TRUE	/	FALSE	1999999999	session-1	deleted
+aamsp.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	e9da3e9d7dca7d80ecc939c5517e50e0
+aau.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	eb9b7fe58b1498188557b37c9335a009
+jawue.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	d8259640f08ef1ab16f98040406a2c6b
+cara.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	77f40b12cacd85ac5d6c800f493d3211
+aw.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	cbaf7604a3d8288444c75375d0609d33
+schweinfurt.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	960b7ee2fe5ca7e50fab37fedf13ffc4
+antirawuerzburg.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	a191418b83dfd794d967f57fd19f83eb
+nopasaranwue.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	99c186c8699282a96db3b1d2a0a575e9
+solidaritaet.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	ab21b3824ac523a89388643d8173d95b
+01mai2010.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	6b46f9523f376c3873d4030b9c91724c
+neonnesaction.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	103b5ee45f3f004410820f33b0c0754f
+kommunal.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	0f706efacabf54d182bd668f6109c189
+subradical.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	80d66ae9963d2c7c7660ae60b556b8c5
+aamt.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	76c3d9e9f36b4892195b803bc1a7c732
+infoladenwuerzburg.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	2ee347ff8fa672bfa05e7945f9fc1526
+.freeimagehosting.net	TRUE	/	FALSE	1999999999	__cfduid	db64ada88cf1b44ac2bbcd2e29759cc9c1612362580
+www.freeimagehosting.net	TRUE	/	FALSE	1999999999	SameSite	Lax
+.fda-ifa.org	TRUE	/	FALSE	1999999999	__cfduid	dcf304cd4b5b5faaeceef093938579a3f1612362581
+fda-ifa.org	TRUE	/	FALSE	1999999999	SameSite	Lax
+bildungdiskutieren.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	b04db71013c1c62c47e08adb265c9fd7
+rotehilfewuerzburg.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	6233594827347efb772f167e440cf182
+upload.wikimedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	03-Feb-2021
+wuew.blogsport.de	TRUE	/	FALSE	1999999999	PHPSESSID	cf73b4bc2fa1c7da8000df4abf795b66
+www.raw.at	TRUE	/	FALSE	1999999999	PHPSESSID	r5lbs3fe281rno0k51ssv0f217
+www.raw.at	TRUE	/	FALSE	1999999999	bypassStaticCache	deleted
+www.einheit-und-freiheit.de	TRUE	/	FALSE	1999999999	cookielawinfo-checkbox-necessary	yes
+www.einheit-und-freiheit.de	TRUE	/	FALSE	1999999999	cookielawinfo-checkbox-non-necessary	yes
+www.br-online.de	TRUE	/	FALSE	1999999999	SERVERID	s2
+www.anarkismo.net	TRUE	/	FALSE	1999999999	userlanguage	ko
+www.anarkismo.net	TRUE	/	FALSE	1999999999	fontsizeinc	2
+www.anarkismo.net	TRUE	/	FALSE	1999999999	user_frontpage	54
+www.historisches-unterfranken.uni-wuerzburg.de	TRUE	/	FALSE	1999999999	BIGipServerPOOL_Hethportal_80	!7EAk14QFUuNxndatMwXDC8iqwqlXdMkYBIE52JXb0rgFzA2LnZYK6JGvxCtNq8kr3yq1TzgajKGnS1A=
+www.historisches-unterfranken.uni-wuerzburg.de	TRUE	/	FALSE	1999999999	BIGipServerPOOL_Hethportal_443	!A1/OrMBsuPRd8CCtMwXDC8iqwqlXdN/DC15cD1XRATG/QeqfvOXQynONpMN1FQwblWy6ig5Hwdof4/s=
+.radikal.ru	TRUE	/	FALSE	1999999999	__RADVUID	7cc0ab16beb61afa
+

@@ -1,0 +1,176 @@
+/*
+	CSS files kept in the 'schemes' directory can be used to
+	costumize your K2 installation without having to mess
+	with the core K2 files. This in turn makes it easier to
+	upgrade to new K2 version as well as debug any problems
+	that might occur.
+
+	You select schemes from the K2 Options page in the
+	'Presentation' section of your WordPress administration.
+	
+	Author Name	:
+	Author Site	:
+	Scheme Name	:
+	Comments	:
+*/
+
+.sb-feedlist ul {
+	margin: 0;
+	}
+
+.sb-feedlist ul li {
+	margin: 5px 0 0;
+	line-height: 1.4em;
+	}
+
+#referer ol {
+	margin: 10px 0 0 40px;
+	}
+
+h3.entry-title {
+	display: inline;
+	}
+
+.entry-content h3 {
+	}
+
+.entry-content {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	}
+
+.single #primary .k2-asides .entry-content {
+	font-size: 1.4em;
+	}
+
+#commentlist li .comment-content {
+	padding: 0;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	}
+
+#rollnavigation a:active, #rollnavigation a:focus {
+	outline: none;
+	}
+
+#googlead {
+	margin: 25px 0 5px;
+	}
+
+#googlead2, .googlead2 {
+	margin: -10px 0 50px 16px;
+	}
+
+#googlead2.ext {
+	margin-left: 0;
+	}
+
+.bannervista {
+	margin-left: 8px !important;
+	}
+
+#google_ie {
+	margin: 0 0 20px;
+	}
+
+#google_sb {
+	margin: 22px 0 5px;
+	}
+
+#google_bottom {
+	margin: 0 0 0 25px;
+	}
+
+#google_bottom_fork {
+	margin: 20px 0 -15px;
+	}
+
+#bannervista, .bannervista {
+	background: url(../../../../wp-images/anzeige.gif) no-repeat;
+	padding-left: 8px;
+	}
+
+.secondary blockquote, .comments blockquote {
+	color: #666;
+	}
+
+.secondary .k2-asides blockquote {
+	margin: 7px 0;
+	padding: 0 10px 0 30px;
+	background-position: 2px 2px;
+	}
+
+.secondary #google_sb.half {
+	width: 226px;
+	*width: 224px;
+	overflow: hidden;
+	margin-left: -4px !important;
+	margin-right: -26px;
+	}
+
+body #amazon_ad, body #bannervista {
+	display: none;
+	}
+
+body .secondary #amazon_ad, body .secondary #bannervista {
+	display: block;
+	}
+
+.primary .noteworthyLink img {
+	width: 30px;
+	height: 11px;
+	border: none;
+	/* right: 23px; */
+	padding-left: 0;
+	margin: 0;
+	position: absolute;
+	}
+
+*html #primary .entry-content p {
+	width: 100%;
+	overflow: hidden;
+	}
+
+*html #primary .entry-content img {
+	border: none;
+	}
+
+#sb-buttons ul {
+	margin-top: 8px;
+	}
+
+div.sb-bannervista {
+	margin: 13px 0 0;
+	}
+
+#sk2-footer {
+	margin: 20px 0 -30px 0;
+	}
+
+.alert.download {
+	background-image: url('images/disk.png');
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	text-align: left;
+	margin: 10px 0;
+	padding: 5px 20px 5px 40px;
+	}
+
+ol.footnotes {
+	margin-top: 35px;
+	border-top:1px dotted black;
+ 	font-size:.80em;
+}
+
+img.wp-smiley {
+	vertical-align: -25%;
+}
+
+.guestbook #comments h4,
+.guestbook #comments .metalinks {
+	display: none;
+}
+
+.guestbook #comments {
+	padding: 0;
+}
