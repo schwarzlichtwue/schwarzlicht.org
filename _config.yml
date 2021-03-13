@@ -22,6 +22,8 @@ url: "https://schwarzlicht.org" # the base hostname & protocol for your site, e.
 twitter_username: schwarzlichtwue
 github_username:  schwarzlichtwue
 
+encoding: utf-8
+
 # Build settings
 markdown: kramdown
 theme: minima
