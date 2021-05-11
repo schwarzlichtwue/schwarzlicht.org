@@ -210,10 +210,22 @@
           - id: sozkuz
             name: Initiative Soziokulturelles Zentrum
             active: "true"
+            image: "/img/groups/sozkuz/image.jpg"
             description: "Die Initiative SozKuz ist auf der Suche nach unabhängigem, dringend benötigtem, zentral gelegenem, großflächigen Raum, um diesen Vereinen, Initiativen und Privatpersonen unentgeltlich zur Verfügung zu stellen, die dies bei horrenden Mieten und mangelnden Angeboten nicht mehr finden. Sie wollen einen Ort des sozialen und kulturellen Austausches schaffen, in dem auch Kunst ihren Platz findet."
             contact:
                 mail: "mailto:soziokulturelles-zentrum@riseup.net"
                 website: "https://sozkuzwue.wordpress.com/"
+          - id: gkn
+            name: Gruppe Klein-Nizza – Radikale Linke Würzburg
+            active: "true"
+            logo: "/img/groups/gkn/logo.png"
+            image: "/img/groups/gkn/image.jpg"
+            description: "Die Gruppe versteht sich als Teil einer undogmatischen, radikalen Linken, die sich nicht mit den vorherrschenden Zuständen abfinden kann und will. Sie will nicht mitansehen, wie der permanente Verwertungsdruck des Kapitalismus zu Ausbeutung, Armut und Umweltzerstörung führt, wie patriarchale Gewalt, Sexismus und rassistische Diskriminierung zum Alltag gehören und die parlamentarischen Antworten auf diese Zustände entweder nicht vorhanden sind, oder sich auf oberflächliche Auseinandersetzungen beschränken."
+            contact:
+                mail: "mailto:kleinnizzawue@riseup.net"
+                twitter: "https://twitter.com/kleinnizzawue"
+                website: "https://kleinnizzawue.noblogs.org"
+                mastodon: "https://masthead.social/@kleinnizzawue"
           - id: akj
             name: Arbeitskreis Kritischer Jurist*innen
             active: "true"
