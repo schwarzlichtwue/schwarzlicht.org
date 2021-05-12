@@ -41,7 +41,11 @@ layout: sub
 			{% for topic in site.data.demosprueche %}
 			<li>
 				<div class="collapsible-header">
-					<h6>{{topic.name}}</h6>
+					<h6>{{topic.name}}
+					<span style="font-size:smaller; font-weight:lighter;">
+					({{topic.sayings | size }})
+					</span>
+					</h6>
 				</div>
 				<div class="collapsible-body">
 					<ul class="collection">
