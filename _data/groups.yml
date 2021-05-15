@@ -215,6 +215,17 @@
             contact:
                 mail: "mailto:soziokulturelles-zentrum@riseup.net"
                 website: "https://sozkuzwue.wordpress.com/"
+          - id: sinistra
+            name: Sinistra
+            active: "true"
+            logo: "/img/groups/sinistra/logo.png"
+            image: "/img/groups/sinistra/image.jpg"
+            description: "Sinistra - die linke Hand - setzt sich im Raum
+Stuttgart & Würzburg aktiv für eine solidarische und antifaschistische
+Gesellschaft ohne Ausbeutung und für konsequenten Klimaschutz ein."
+            contact:
+                instagram: "https://www.instagram.com/sinistra_de/"
+                twitter: "https://twitter.com/Sinistra_de"
           - id: gkn
             name: Gruppe Klein-Nizza – Radikale Linke Würzburg
             active: "true"
