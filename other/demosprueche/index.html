@@ -1,0 +1,68 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+title: Demosprüche
+layout: sub
+---
+<div id="content" class="container">
+	<div class="row">
+		<h1 id="demosprueche">Demosprüche</h1>
+		<div class="col s12">
+		<p>
+		„Demosprüche, meist gereimte und einprägsame, kurze Sätze oder
+		Wortgruppen, dienen den Demoteilnehmer[:inne]n zur Übermittlung von Inhalten.
+		Es kommt zu einer Festigung des Zusammengehörigkeitsgefühls und der
+		damit verbundenen Abgrenzung zu politischen Feinden. Auf
+		Gegendemonstrationen werden Demosprüche auch zur Einschüchterung des
+		politschen Gegners oder der anwesenden „Sicherheitskräfte“ benutzt.
+		Parolen und Sprechchöre entstehen nicht aus dem Nichts oder waren schon
+		immer da, sondern werden dadurch geprägt, dass jemand sie sich
+		ausdenkt. Eine politische Bewegung gewinnt deshalb unter anderem auch
+		dadurch an Fahrt, dass jemand zuerst den Mut hat, eine neue und
+		originelle Parole zu rufen.“ – Recklinghausen Nazifrei.
+		</p>
+		<p>
+
+		In diesem Sinne stellen wir hier ~1.500 Demosprüche für alle möglichen Situationen bereit.
+		Die Sprüche leihen wir uns unter anderem von
+		<a type="_blank" href="https://femstars.tumblr.com/post/3805446716/demospr%C3%BCche-gern-erg%C3%A4nzbar">Femstars</a>,
+		<a type="_blank" href="http://demosprueche.blogsport.eu/author/demosprueche/">Demosprüche Blogsport</a>,
+		<a type="_blank" href="http://linksjugend-solid-bw.de/material/demospruche/">Linksjugend Solid BW</a>,
+		<a type="_blank" href="https://www.fridaysforfutureffm.de/demosprueche/">Fridays for Future FFM</a> und
+		<a type="_blank" href="http://recklinghausennazifrei.blogsport.de/demo-sprueche/">Recklinghausen Nazifrei</a>.
+		Zusätzlich sammeln wir hier Sprüche, die in Würzburger Eigenproduktion entstanden sind.
+
+		</p>
+		</div>
+	</div>
+	<div class="row">
+		<ul class="collapsible popout">
+			{% for topic in site.data.demosprueche %}
+			<li>
+				<div class="collapsible-header">
+					<h6>{{topic.name}}
+					<span style="font-size:smaller; font-weight:lighter;">
+					({{topic.sayings | size }})
+					</span>
+					</h6>
+				</div>
+				<div class="collapsible-body">
+					<ul class="collection">
+						{% for saying in topic.sayings %}
+						<li class="collection-item">
+								{{saying.saying}}
+								{% if saying.note %}
+								<br/>
+									<span style="font-size:smaller;"
+									class="">({{saying.note}})</span>
+								{% endif %}
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
